@@ -1,0 +1,79 @@
+.page-about{
+  &__card{
+    width: 100%;
+    height: auto;
+    background: #15181C;
+    position: relative;
+    transform: skew(-8deg);
+    max-width: 305px;
+    @media (max-width: 991.98px) {
+      margin-bottom: 30px;
+      position: relative;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @media (max-width: 767.98px) {
+      margin-bottom: 15px;
+    }
+    &:after{
+      content: " ";
+      position: absolute;
+      background: rgba(255, 194, 37, 0.33);
+      filter: blur(80px);
+      top: -70px;
+      left: 0;
+      width: 223px;
+      height: 134px;
+      @media (max-width: 767.98px) {
+        display: none;
+      }
+    }
+  }
+  &__title{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 36px;
+    color: #15181C;
+    margin-bottom: 25px;
+    &_mb60{
+      margin-bottom: 60px;
+    }
+    @media (max-width: 767.98px) {
+      font-size: 24px;
+      line-height: 27px;
+      margin-bottom: 40px;
+    }
+    @media (max-width: 575.98px) {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+  }
+  &__card-items{
+    transform: skew(8deg);
+    padding: 30px;
+  }
+  &__card-title{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 54px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin-bottom: 8px;
+    background: linear-gradient(90deg, #FF3225 -0.55%, #FFC225 94.59%);
+    -webkit-background-clip: text; /* Обрезаем фон по тексту */
+    -webkit-text-fill-color: transparent; /* Прозрачный текст */
+
+    &_gradient{
+      background: #15181C;
+    }
+  }
+  &__card-sub-title{
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}

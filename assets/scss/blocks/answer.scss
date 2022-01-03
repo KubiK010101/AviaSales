@@ -1,0 +1,49 @@
+.answer {
+    padding-top: 140px;
+    padding-bottom: 84px;
+    background-color: #ffffff;
+    &__card {
+        $self: &;
+        border: 1px solid #E0ECF4;
+        -webkit-transform: skew(-10deg, 0deg);
+        margin-bottom: 15px;
+        &-text {
+            padding: 25px 40px;
+            -webkit-transform: skew(10deg, 0deg);
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            color: #15181C;
+            position: relative;
+            &:hover {
+                color: #2591FF;
+                cursor: pointer;
+                transition: 300ms;
+                &::after {
+                    background-image: url("../../img/main-page/plus_blue.svg");
+                }
+            }
+            &::after {
+                padding-right: 40px;
+                background-repeat: no-repeat;
+                content: " ";
+                cursor: pointer;
+                position: absolute;
+                background-image: url("../../img/main-page/plus.svg");
+                width: 23px;
+                height: 23px;
+                right: 0;
+                top: 50%;
+                transform: translate(0, -50%);
+            }
+        }
+        &-content {
+            display: block;
+            margin-left: 40px;
+            margin-right: 20px;
+            &.collapsed {
+                display: none;
+            }
+        }
+    }
+}

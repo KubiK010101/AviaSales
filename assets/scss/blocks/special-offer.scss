@@ -1,0 +1,17 @@
+.special-offer {
+    $self: &;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-image: url("../../img/main-page/special-offer__bg.png");
+    background-size: cover;
+    height: auto;
+    &__item-wrapper {
+        margin-bottom: 25px;
+    }
+    &__item {
+        min-height: 200px;
+        width: 100%;
+        max-width: 305px;
+        margin: 0 auto;
+    }
+}

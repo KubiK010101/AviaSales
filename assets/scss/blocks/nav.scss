@@ -1,0 +1,107 @@
+.nav{
+  padding-top: 20px;
+  &__logo{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    @media (max-width: 575.98px) {
+      font-size: 22px;
+      line-height: 27px;
+      padding-top: 10px;
+    }
+
+  }
+  &__list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 0;
+    @media (max-width: 991.98px) {
+      display: none;
+    }
+  }
+  &__list-item{
+    display: inline;
+    padding-left: 44px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    position: relative;
+    &:hover{
+      color: #e6e6e6;
+      text-decoration: none;
+    }
+    @media (max-width: 1199.98px) {
+      font-size: 12px;
+      padding-left: 40px;
+    }
+
+  }
+  &__list-item_taken{
+    &:after{
+      content: " ";
+      background: url("../../img/main-page/nav-list-after.svg");
+      position: absolute;
+      bottom: -4px;
+      width: 28px;
+      height: 2px;
+      right: 0;
+    }
+    &:before{
+      content: " ";
+      background: url("../../img/main-page/nav-list-after.svg");
+      position: absolute;
+      bottom: -4px;
+      width: 28px;
+      height: 2px;
+    }
+  }
+  &__border-btn{
+    background-image: url("../../img/main-page/border_btn.svg");
+    width: 56px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+  }
+  &__search-btn{
+    background-image: url("../../img/main-page/search.svg");
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto auto auto auto;
+  }
+  &__menu-btn{
+    background-image: url("../../img/main-page/menu.svg");
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto auto auto auto;
+  }
+  &__border_yellow{
+    &:hover{
+      transition: 400ms;
+      cursor: pointer;
+      background: url("../../img/main-page/border_btn_yellow.svg") ;
+    }
+  }
+  &__border_blue{
+    margin-left: -10px;
+    &:hover{
+      transition: 400ms;
+      cursor: pointer;
+      background: url("../../img/main-page/border_btn_blue.svg") ;
+    }
+  }
+}

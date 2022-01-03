@@ -1,0 +1,46 @@
+.article{
+  &__sub-title{
+    margin-top: 35px;
+  }
+  &__watchers{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #C9C9C9;
+    position: relative;
+    padding-left: 21px;
+    &::before{
+      content: " ";
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      background-image: url("../../img/main-page/eye.svg");
+      left: 0;
+    }
+  }
+  &__img{
+    width: 100%;
+    height: auto;
+  }
+  &__h4{
+    margin-bottom: 10px;
+    margin-top: 40px;
+    &_mt25{
+      margin-top: 25px;
+    }
+  }
+  &__social{
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 40px;
+  }
+  &__social-item{
+    padding: 0 8px 0 8px;
+  }
+  &__social-text{
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 11px;
+    color: #BDBDBD;
+  }
+}

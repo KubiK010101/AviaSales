@@ -1,0 +1,80 @@
+.shares{
+  padding-top: 85px;
+  @media (max-width: 991.98px) {
+    display: none;
+  }
+  &__card{
+    width: 100%;
+    height: auto;
+    //padding: 20px;
+    max-width: 305px;
+    margin-top: 10px;
+  }
+  &__card-top{
+    background-color: #15181C;
+    padding: 19px 0 5px 20px;
+  }
+  &__card-title{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 19px;
+  }
+  &__card-bottom{
+    background: #FFFFFF;
+    border: 1px solid #E0ECF4;
+    padding: 20px;
+  }
+  &__card-cities, &__card-time{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__card-cities{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    color: #15181C;
+  }
+  &__card-time{
+    font-size: 12px;
+    line-height: 15px;
+    color: #757575;
+  }
+  &__card-city-1{
+
+
+  }
+  &__card-city-2{
+
+  }
+
+
+  &__card-duration{
+    font-size: 12px;
+    line-height: 15px;
+    color: #757575;
+    margin-top: 15px;
+  }
+
+  &__card-btn{
+    background: linear-gradient(270deg, #25CBFF 0%, #2591FF 100%);
+    padding: 16px 45px;
+    display: block;
+    max-width: 249px;
+    left: 0;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 41px;
+    transform: skew(-10deg);
+    text-align: center;
+  }
+}

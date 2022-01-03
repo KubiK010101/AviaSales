@@ -1,0 +1,43 @@
+.page-blog{
+  &__card-img{
+    width: 100%;
+    height: auto;
+  }
+  &__card-title{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #15181C;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  &__card-description{
+    font-size: 14px;
+    line-height: 17px;
+    color: #2C2C2C;
+  }
+  &__card-bottom{
+    padding: 0 25px 20px 25px ;
+    background: #FFFFFF;
+    border: 1px solid #E0ECF4;
+    width: 100%;
+    display: block;
+  }
+  &__card-stats{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__card-views{
+    font-size: 12px;
+    line-height: 15px;
+    color: #C9C9C9;
+  }
+  &__card-btn{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #2591FF;
+  }
+}

@@ -1,0 +1,149 @@
+
+
+
+
+.toggle-menu {
+  z-index: 9999;
+}
+
+.toggle-menu i {
+  position: absolute;
+  display: block;
+  height: 2px;
+  background: #0094FC;
+  width: 30px;
+  left: 0px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  z-index: 9999;
+}
+.toggle-menu.active{
+  background-image: url("../../img/main-page/border-menu.svg");
+  width: 56px;
+  height: 40px;
+  display: inline-block;
+  position: relative;
+  //background: red;
+  .nav__menu-btn{
+    background-image: url("../../img/main-page/menu-close.svg");
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto auto auto auto;
+    background-repeat: no-repeat;
+
+  }
+}
+
+.toggle-menu i:nth-child(1) {
+  top: 16px;
+}
+
+.toggle-menu i:nth-child(2) {
+  top: 24px;
+}
+
+.toggle-menu i:nth-child(3) {
+  top: 32px;
+}
+
+.toggle-menu.active i:nth-child(1) {
+  top: 25px;
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+
+.toggle-menu.active i:nth-child(2) {
+  background: transparent;
+}
+
+.toggle-menu.active i:nth-child(3) {
+  top: 25px;
+  -webkit-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+}
+
+
+
+.menu-drawer {
+  display: none;
+  width: 400px;
+  background-color: #ffffff;
+  height: 100vh;
+  position: absolute;
+  right: -550px;
+  top: 0;
+  transition: right linear .2s;
+  //padding: 50px;
+  z-index: 8888;
+}
+
+.open {
+  display: block;
+  right: 0;
+  transition: right linear .2s;
+  position: fixed;
+}
+
+//.menu-drawer {
+//  li {
+//    font-family: lato;
+//    font-weight: bold;
+//    margin-bottom: 30px;
+//    font-size: 50px;
+//    text-align: center;
+//    a {
+//      text-decoration: none;
+//      color: #555;
+//      &:hover {
+//        color: #0094FC;
+//      }
+//    }
+//  }
+//}
+.menu{
+  position: relative;
+  &__list {
+    padding-left: 0;
+    list-style: none;
+    color: #15181C!important;
+    position: relative;
+
+  }
+  &__title{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 35px;
+    padding-top: 20px;
+    color: #E0ECF4;
+  }
+  &__border{
+    width: 100%;
+    background: black;
+  }
+  &__list-item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    color: #15181C;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    &::before{
+      content: " ";
+      position: absolute;
+      height: 2px;
+      background: #E0ECF4;
+      left: 0;
+      width: 100%;
+      top: -5px;
+    }
+  }
+}
