@@ -3625,6 +3625,36 @@ input[type="radio"].visually-hidden {
   .tab-content .tab-pane.active {
     display: block; }
 
+@font-face {
+  font-family: "ico-font";
+  src: url("../fonts/icofont/ico-font.eot?1641251748");
+  src: url("../fonts/icofont/ico-font.eot??1641251748#iefix") format("eot"), url("../fonts/icofont/ico-font.woff2?1641251748") format("woff2"), url("../fonts/icofont/ico-font.woff?1641251748") format("woff"), url("../fonts/icofont/ico-font.ttf?1641251748") format("truetype"), url("../fonts/icofont/ico-font.svg?1641251748#ico-font") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.icon-arrow:before, .icon-search:before, .icon-table_long_arrow:before {
+  font-family: "ico-font";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 1; }
+  .icon-arrow:before, .icon-search:before, .icon-table_long_arrow:before {
+    display: block;
+    line-height: 1; }
+
+.icon-arrow:before {
+  content: ""; }
+
+.icon-search:before {
+  content: ""; }
+
+.icon-table_long_arrow:before {
+  content: ""; }
+
 .owl-wrapper {
   overflow: hidden; }
 
@@ -4772,17 +4802,98 @@ input[type="radio"].visually-hidden {
   .page-route__sub-h3_bold {
     font-weight: 600; }
 
+.skew {
+  -webkit-transform: skew(-10deg, 0);
+          transform: skew(-10deg, 0);
+  margin: 0;
+  padding: 0; }
+  .skew > * {
+    -webkit-transform: skew(10deg, 0);
+            transform: skew(10deg, 0); }
+
+.routes__search-wrapper {
+  background-color: white;
+  padding: 18px 25px; }
+
+.routes__search {
+  background-color: white;
+  border: none !important; }
+  .routes__search:focus {
+    outline: none; }
+  .routes__search-icon {
+    background-image: url("../img/svg-icons/search.svg");
+    width: 16px;
+    height: 16px;
+    background-size: contain; }
+
+.routes__nav-link {
+  color: #2591ff;
+  position: relative;
+  margin: 0 20px; }
+  .routes__nav-link.disabled {
+    mix-blend-mode: luminosity; }
+  .routes__nav-link_arrow-right.disabled::after, .routes__nav-link_arrow-left.disabled::after {
+    mix-blend-mode: luminosity; }
+  .routes__nav-link_arrow-right::after {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    right: -18px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    background-image: url("../img/svg-icons/arrow.svg"); }
+  .routes__nav-link_arrow-left::after {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    left: -18px;
+    top: 50%;
+    -webkit-transform: translateY(-50%) rotate(180deg);
+            transform: translateY(-50%) rotate(180deg);
+    background-image: url("../img/svg-icons/arrow.svg"); }
+
+.routes__table-item {
+  padding: 12px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.routes__table-item:nth-child(2n+1) {
+  background: #ffffff; }
+
+.routes__table-item:nth-child(2n) {
+  background: #F8F8F8; }
+
+.routes__table-arrow {
+  background-image: url("../img/svg-icons/table_long_arrow.svg");
+  height: 18px;
+  width: 18px;
+  margin: 0 30px; }
+
+.routes__annotation {
+  margin: 0;
+  padding: 0;
+  margin-left: 25px; }
+
 body {
   position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #000;
   font-weight: 400;
   line-height: 1.2;
   font-size: 16px;
   min-width: 320px;
-  background: #EFF5F9; }
+  background: #eff5f9; }
 
 .my-container {
   width: 100%;
@@ -4819,7 +4930,7 @@ body {
   line-height: 54px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 37px;
   margin-bottom: 10px; }
   @media (max-width: 991.98px) {
@@ -4837,12 +4948,12 @@ body {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #E0ECF4;
+  color: #e0ecf4;
   text-align: center;
   display: block; }
   .pages__sub-title_left {
     text-align: left; }
   .pages__sub-title_white {
-    color: #FFFFFF; }
+    color: #ffffff; }
   .pages__sub-title_gray {
-    color: #E0ECF4; }
+    color: #e0ecf4; }
