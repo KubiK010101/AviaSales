@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86045a97-f772-42fd-b9be-f03bba321b97" name="Default Changelist" comment="" />
+    <list default="true" id="86045a97-f772-42fd-b9be-f03bba321b97" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/plugins/icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/plugins/icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/icofont/ico-font.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/icofont/ico-font.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/routes.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/routes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/start-page.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +37,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="22T8pMze9DnGYYCCFQOKwLlslIq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -81,7 +97,7 @@
       <workItem from="1640781590839" duration="1461000" />
       <workItem from="1641155017692" duration="3478000" />
       <workItem from="1641211637675" duration="7507000" />
-      <workItem from="1641247647369" duration="3992000" />
+      <workItem from="1641247647369" duration="4685000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1641252404632</created>
@@ -127,6 +143,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="656" y="384" key="com.intellij.ide.util.TipDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1641247784269" />
+    <state x="769" y="477" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1641253029663">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="769" y="477" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1641253029663" />
     <state x="616" y="260" key="run.anything.popup" timestamp="1640611919815">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
