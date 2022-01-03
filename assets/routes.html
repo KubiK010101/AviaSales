@@ -1,0 +1,355 @@
+@@include('template/head.html', { "pagetitle": "Главная страница", "bodyclass": "" }) @@include('template/page-header.html',{ "active_item": "", "logged": "false" })
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+</head>
+
+<style>
+    .cascoon-calendar-sidebar-wrapper {
+        /*display: none;*/
+    }
+    
+    .cascoon-root .cascoon-form-checkbox__label {
+        background: #25cbff !important;
+        padding: 16px 30px !important;
+        display: block !important;
+        color: #ffffff !important;
+        font-weight: bold !important;
+        font-size: 12px !important;
+        line-height: 15px !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.05em !important;
+        position: relative !important;
+        margin-left: 0 !important;
+        transform: skew(-10deg);
+        border-radius: 0;
+    }
+    
+    .cascoon-root .cascoon-form-checkbox-wrapper {
+        display: none;
+    }
+    
+    .cascoon-root .cascoon-calendar-layout .cascoon-calendar__year .cascoon-year-cell--best {
+        background-color: #25cbff !important;
+    }
+    
+    .cascoon-root .cascoon-calendar-layout .cascoon-calendar-month .cascoon-month-cell {
+        background-color: #ffffff !important;
+        border: 1px solid #e0ecf4 !important;
+        border-radius: 0 !important;
+    }
+    
+    .cascoon-root .cascoon-calendar-layout .cascoon-calendar-month .cascoon-month-cell__title {
+        font-weight: bold !important;
+        font-size: 15px !important;
+        line-height: 18px !important;
+        text-align: right !important;
+        letter-spacing: 0.05em !important;
+        color: #15181c !important;
+    }
+    /*second-widget*/
+    
+    .cascoon-form-title__title {
+        display: none;
+    }
+    
+    .cascoon a {
+        font-weight: bold !important;
+        font-size: 15px !important;
+        line-height: 18px !important;
+        letter-spacing: 0.05em !important;
+        color: #ff3225 !important;
+    }
+    
+    .cascoon-form-title__subtitle {
+        display: none;
+    }
+    
+    .cascoon.cascoon-2811.cascoon-2811_0,
+    .cascoon.cascoon-2811.cascoon-2811_0 .cascoon-like-wrapper {
+        background: #eff5f9 !important;
+        border: 1px solid #eff5f9 !important;
+    }
+</style>
+
+<body>
+    <div class="pages-bg">
+        <div class="nav">
+            <div class="my-container">
+                <div class="row justify-content-between">
+                    <!--				<div class="col-sm-6 col-md-6 col-lg-2">-->
+                    <div class="nav__logo">Logotype</div>
+                    <!--				</div>-->
+                    <!--				<div class="col-7">-->
+                    <ul class="nav__list">
+                        <li><a href="#" class="nav__list-item">Главная</a></li>
+                        <li><a href="#" class="nav__list-item">Спецпредложения</a></li>
+                        <li><a href="#" class="nav__list-item">Маршруты</a></li>
+                        <li><a href="#" class="nav__list-item">Блог</a></li>
+                        <li><a href="#" class="nav__list-item">Контакты</a></li>
+                    </ul>
+                    <!--				</div>-->
+                    <!--				<div class="col-sm-6 col-md-6 col-lg-3">-->
+                    <div>
+                        <div class="nav__border-btn nav__border_yellow">
+                            <a href="" class="nav__search-btn"></a>
+                        </div>
+                        <div class="nav__border-btn nav__border_blue toggle-menu">
+                            <a class="nav__menu-btn"></a>
+                        </div>
+                    </div>
+                    <!--				</div>-->
+                    <div class="menu-drawer">
+                        <h4 class="menu__title">МЕНЮ</h4>
+                        <div class="menu__list">
+                            <a class="menu__list-item" href="#">Популярные направления</a>
+                        </div>
+                        <div class="menu__list">
+                            <a class="menu__list-item" href="#">Страны</a>
+                        </div>
+                        <div class="menu__list">
+                            <a class="menu__list-item" href="#">Города</a>
+                        </div>
+                        <div class="menu__list">
+                            <a class="menu__list-item" href="#">Авиакомпании</a>
+                        </div>
+                        <div class="menu__list">
+                            <a class="menu__list-item" href="#">Аэрпорты</a>
+                        </div>
+                        <div class="menu__list">
+                            <a class="menu__list-item" href="#">Ответы на вопросы</a>
+                        </div>
+                        <div class="menu__list">
+                            <a class="menu__list-item" href="#">О нас</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pages-header">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <h2 class="pages__title">Маршруты</h2>
+                        <div class="pages__sub-title">
+                            <a href="#" class="pages__sub-title_gray">Главная</a>
+                            <a href="#" class="pages__sub-title_white">/ Маршруты</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="my-container">
+        <div class="row" style="margin-bottom: 5px; margin-top: 45px;">
+            <div class="col-12 d-flex justify-content-between align-items-center">
+                <div class="">
+                    <div class="skew routes__search-wrapper d-flex justify-content-between">
+                        <input class="routes__search" type="text" placeholder="Поиск" />
+                        <div class="routes__search-icon"></div>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="routes__nav-link routes__nav-link_arrow-left disabled">
+                        Назад
+                    </div>
+                    <div class="routes__nav-link routes__nav-link_arrow-right">
+                        Вперед
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 20px;">
+            <div class="col-12 col-md-6">
+                <div class="routes__table">
+                    <div class="routes__table-item">
+                        <div>Винница</div>
+                        <div class="routes__table-arrow"></div>
+                        <div>Израиль</div>
+                    </div>
+                    <div class="routes__table-item">
+                        <div>Винница</div>
+                        <div class="routes__table-arrow"></div>
+                        <div>Израиль</div>
+                    </div>
+                    <div class="routes__table-item">
+                        <div>Винница</div>
+                        <div class="routes__table-arrow"></div>
+                        <div>Израиль</div>
+                    </div>
+                    <div class="routes__table-item">
+                        <div>Винница</div>
+                        <div class="routes__table-arrow"></div>
+                        <div>Израиль</div>
+                    </div>
+                    <div class="routes__table-item">
+                        <div>Винница</div>
+                        <div class="routes__table-arrow"></div>
+                        <div>Израиль</div>
+                    </div>
+                    <div class="routes__table-item">
+                        <div>Винница</div>
+                        <div class="routes__table-arrow"></div>
+                        <div>Израиль</div>
+                    </div>
+                    <div class="routes__table-item">
+                        <div>Винница</div>
+                        <div class="routes__table-arrow"></div>
+                        <div>Израиль</div>
+                    </div>
+                    <div class="routes__table-item">
+                        <div>Винница</div>
+                        <div class="routes__table-arrow"></div>
+                        <div>Израиль</div>
+                    </div>
+                    <div class="routes__table-item">
+                        <div>Винница</div>
+                        <div class="routes__table-arrow"></div>
+                        <div>Израиль</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="routes__table">
+                    <div class="routes__table-item">
+                        <div>Винница</div>
+                        <div class="routes__table-arrow"></div>
+                        <div>Израиль</div>
+                    </div>
+                    <div class="routes__table-item">
+                        <div>Винница</div>
+                        <div class="routes__table-arrow"></div>
+                        <div>Израиль</div>
+                    </div>
+                    <div class="routes__table-item">
+                        <div>Винница</div>
+                        <div class="routes__table-arrow"></div>
+                        <div>Израиль</div>
+                    </div>
+                    <div class="routes__table-item">
+                        <div>Винница</div>
+                        <div class="routes__table-arrow"></div>
+                        <div>Израиль</div>
+                    </div>
+                    <div class="routes__table-item">
+                        <div>Винница</div>
+                        <div class="routes__table-arrow"></div>
+                        <div>Израиль</div>
+                    </div>
+                    <div class="routes__table-item">
+                        <div>Винница</div>
+                        <div class="routes__table-arrow"></div>
+                        <div>Израиль</div>
+                    </div>
+                    <div class="routes__table-item">
+                        <div>Винница</div>
+                        <div class="routes__table-arrow"></div>
+                        <div>Израиль</div>
+                    </div>
+                    <div class="routes__table-item">
+                        <div>Винница</div>
+                        <div class="routes__table-arrow"></div>
+                        <div>Израиль</div>
+                    </div>
+                    <div class="routes__table-item">
+                        <div>Винница</div>
+                        <div class="routes__table-arrow"></div>
+                        <div>Израиль</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-12 ml-2">
+                <p class="routes__annotation">
+                    Записи с 1 до 20 из 395 записей
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-footer">
+        <div class="my-container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="nav__logo">Logotype</div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <p class="page-footer__chapter">СТРАНИЦЫ</p>
+                    <a href="" class="page-footer__link">Главная</a>
+                    <a href="" class="page-footer__link">О нас</a>
+                    <a href="" class="page-footer__link">Маршруты</a>
+                    <a href="" class="page-footer__link">Популярные направления</a>
+                    <a href="" class="page-footer__link">Спецпредложения</a>
+                    <a href="" class="page-footer__link">Блог</a>
+                    <a href="" class="page-footer__link">F.A.Q.</a>
+                    <a href="" class="page-footer__link">Контакты</a>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <p class="page-footer__chapter">АВИАКОМАНИИ</p>
+                    <a href="" class="page-footer__link">Авиакомпания 1</a>
+                    <a href="" class="page-footer__link">Авиакомпания 1</a>
+                    <a href="" class="page-footer__link">Авиакомпания 1</a>
+                    <a href="" class="page-footer__link">Авиакомпания 1</a>
+                    <a href="" class="page-footer__link">Авиакомпания 1</a>
+                    <a href="" class="page-footer__link">Авиакомпания 1</a>
+                    <a href="" class="page-footer__link">Авиакомпания 1</a>
+                    <a href="" class="page-footer__link">Авиакомпания 1</a>
+                    <a href="" class="page-footer__link">Авиакомпания 1</a>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <p class="page-footer__chapter">АЭРОПОРТЫ</p>
+                    <a href="" class="page-footer__link">Аэропорт 1</a>
+                    <a href="" class="page-footer__link">Аэропорт 1</a>
+                    <a href="" class="page-footer__link">Аэропорт 1</a>
+                    <a href="" class="page-footer__link">Аэропорт 1</a>
+                    <a href="" class="page-footer__link">Аэропорт 1</a>
+                    <a href="" class="page-footer__link">Аэропорт 1</a>
+                    <a href="" class="page-footer__link">Аэропорт 1</a>
+                    <a href="" class="page-footer__link">Аэропорт 1</a>
+                    <a href="" class="page-footer__link">Аэропорт 1</a>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <p class="page-footer__chapter">НАПРАВЛЕНИЯ</p>
+                    <a href="" class="page-footer__link">Москва - Сочи</a>
+                    <a href="" class="page-footer__link">Москва - Симферополь</a>
+                    <a href="" class="page-footer__link">Москва - Краснодар</a>
+                    <a href="" class="page-footer__link">Москва - Махачкала</a>
+                    <a href="" class="page-footer__link">Москва - Калининград</a>
+                    <a href="" class="page-footer__link">Москва - Париж</a>
+                    <a href="" class="page-footer__link">Москва - Дубаи</a>
+                    <a href="" class="page-footer__link">Москва - Нью-Йорк</a>
+                    <a href="" class="page-footer__link">Все направления</a>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <p class="page-footer__chapter">СТРАНЫ</p>
+                    <a href="" class="page-footer__link">Украина</a>
+                    <a href="" class="page-footer__link">Россия</a>
+                    <a href="" class="page-footer__link">Франция</a>
+                    <a href="" class="page-footer__link">Германия</a>
+                    <a href="" class="page-footer__link">Австрия</a>
+                    <a href="" class="page-footer__link">Чехия</a>
+                    <a href="" class="page-footer__link">Италия</a>
+                    <a href="" class="page-footer__link">Таиланд</a>
+                    <a href="" class="page-footer__link">Все страны</a>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <p class="page-footer__chapter">ГОРОДА</p>
+                    <a href="" class="page-footer__link">Киев</a>
+                    <a href="" class="page-footer__link">Москва</a>
+                    <a href="" class="page-footer__link">Париж</a>
+                    <a href="" class="page-footer__link">Будапешт</a>
+                    <a href="" class="page-footer__link">Бостон</a>
+                    <a href="" class="page-footer__link">Уфа</a>
+                    <a href="" class="page-footer__link">Казань</a>
+                    <a href="" class="page-footer__link">Краснодар</a>
+                    <a href="" class="page-footer__link">Все города</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

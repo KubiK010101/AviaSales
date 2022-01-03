@@ -1,0 +1,87 @@
+.skew {
+    transform: skew(-10deg, 0);
+    margin: 0;
+    padding: 0;
+    &>* {
+        transform: skew(10deg, 0);
+    }
+}
+
+.routes {
+    &__search-wrapper {
+        background-color: white;
+        padding: 18px 25px;
+    }
+    &__search {
+        background-color: white;
+        border: none !important;
+        &:focus {
+            outline: none;
+        }
+        &-icon {
+            background-image: url("../img/svg-icons/search.svg");
+            width: 16px;
+            height: 16px;
+            background-size: contain;
+        }
+    }
+    &__nav-link {
+        color: #2591ff;
+        position: relative;
+        margin: 0 20px;
+        &.disabled {
+            mix-blend-mode: luminosity;
+        }
+        &_arrow-right.disabled::after,
+        &_arrow-left.disabled::after {
+            mix-blend-mode: luminosity;
+        }
+        &_arrow-right::after {
+            content: "";
+            width: 18px;
+            height: 18px;
+            display: block;
+            position: absolute;
+            right: -18px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-image: url("../img/svg-icons/arrow.svg");
+        }
+        &_arrow-left::after {
+            content: "";
+            width: 18px;
+            height: 18px;
+            display: block;
+            position: absolute;
+            left: -18px;
+            top: 50%;
+            transform: translateY(-50%) rotate(180deg);
+            background-image: url("../img/svg-icons/arrow.svg");
+        }
+    }
+    &__table {
+        &-item {
+            padding: 12px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &-item:nth-child(2n+1) {
+            background: #ffffff;
+        }
+        &-item:nth-child(2n) {
+            background: #F8F8F8;
+        }
+        &-arrow {
+            background-image: url('../img/svg-icons/table_long_arrow.svg');
+            height: 18px;
+            width: 18px;
+            margin: 0 30px;
+        }
+    }
+    &__annotation {
+        margin: 0;
+        padding: 0;
+        margin-left: 25px;
+    }
+}
