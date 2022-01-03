@@ -4270,6 +4270,121 @@ input[type="radio"].visually-hidden {
       width: 100%;
       top: -5px; }
 
+.search-drawer__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #E0ECF4;
+  margin-bottom: 16px;
+  margin-top: 25px; }
+
+.toggle-search {
+  z-index: 9999; }
+
+.toggle-search i {
+  position: absolute;
+  display: block;
+  height: 2px;
+  background: #0094FC;
+  width: 100%;
+  left: 0;
+  transition: all .3s;
+  z-index: 9999; }
+
+.toggle-search.active {
+  background-image: url("../../img/main-page/border-menu.svg");
+  width: 56px;
+  height: 40px;
+  display: inline-block;
+  position: relative; }
+  .toggle-search.active .nav__search-btn {
+    background-image: url("../../img/main-page/menu-close.svg");
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto auto auto auto;
+    background-repeat: no-repeat; }
+
+.toggle-search i:nth-child(1) {
+  top: 16px; }
+
+.toggle-search i:nth-child(2) {
+  top: 24px; }
+
+.toggle-search i:nth-child(3) {
+  top: 32px; }
+
+.toggle-search.active i:nth-child(1) {
+  top: 25px;
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg); }
+
+.toggle-search.active i:nth-child(2) {
+  background: transparent; }
+
+.toggle-search.active i:nth-child(3) {
+  top: 25px;
+  -webkit-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg); }
+
+.search-drawer {
+  display: none;
+  width: 100%;
+  background-color: #ffffff;
+  height: auto;
+  position: absolute;
+  top: -550px;
+  transition: right linear .2s;
+  z-index: 8888;
+  padding-left: 80px;
+  padding-right: 80px; }
+
+.open {
+  display: block;
+  top: 0;
+  transition: right linear .2s;
+  position: fixed; }
+
+.search {
+  position: relative; }
+  .search__list {
+    padding-left: 0;
+    list-style: none;
+    color: #15181C !important;
+    position: relative; }
+  .search__title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 35px;
+    padding-top: 20px;
+    color: #E0ECF4; }
+  .search__border {
+    width: 100%;
+    background: black; }
+  .search__list-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    color: #15181C;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px; }
+    .search__list-item::before {
+      content: " ";
+      position: absolute;
+      height: 2px;
+      background: #E0ECF4;
+      left: 0;
+      width: 100%;
+      top: -5px; }
+
 .special-offer {
   padding-top: 70px;
   padding-bottom: 50px;

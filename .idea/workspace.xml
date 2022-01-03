@@ -20,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="22T8pMze9DnGYYCCFQOKwLlslIq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +33,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
@@ -76,11 +81,26 @@
       <workItem from="1640781590839" duration="1461000" />
       <workItem from="1641155017692" duration="3478000" />
       <workItem from="1641211637675" duration="7507000" />
+      <workItem from="1641247647369" duration="3992000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1641252404632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641252404632</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="708" y="363" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1641223043581">
@@ -91,14 +111,22 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1640697487041" />
+    <state x="585" y="154" key="CommitChangelistDialog2" timestamp="1641252401092">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="585" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1641252401092" />
     <state x="740" y="315" key="FileChooserDialogImpl" timestamp="1640692416625">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="740" y="315" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1640692416625" />
-    <state x="656" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1641211664228">
+    <state x="552" y="281" key="Vcs.Push.Dialog.v2" timestamp="1641252407660">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="656" y="384" key="com.intellij.ide.util.TipDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1641211664228" />
+    <state x="552" y="281" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1641252407660" />
+    <state x="656" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1641247784269">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="656" y="384" key="com.intellij.ide.util.TipDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1641247784269" />
     <state x="616" y="260" key="run.anything.popup" timestamp="1640611919815">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

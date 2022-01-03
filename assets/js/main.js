@@ -383,6 +383,13 @@ $(function() {
     });
 });
 
+$(function() {
+    $(".toggle-search").click(function() {
+        $(this).toggleClass("active");
+        $('.search-drawer').toggleClass("open");
+    });
+});
+
 $('.js-collapse').click(function () {
     let btn = $(this);
 
