@@ -16,4 +16,55 @@
       font-weight: 600;
     }
   }
+
+  &__table {
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    text-align: left;
+
+    &-item {
+      padding: 12px 24px;
+    }
+    &-item:nth-child(2n+1) {
+      background: #ffffff;
+    }
+    &-item:nth-child(2n) {
+      background: #F8F8F8;
+    }
+    &-wrapper:nth-child(2) & &-item {
+      &:nth-child(2n+1) {
+        background: #ffffff;
+        @media (max-width: 991.98px) {
+          background: #F8F8F8;
+        }
+      }
+      &:nth-child(2n) {
+        background: #F8F8F8;
+        @media (max-width: 991.98px) {
+          background: #ffffff;
+        }
+      }
+    }
+    &-arrow {
+      background-image: url('../img/svg-icons/table_long_arrow.svg');
+      height: 18px;
+      width: 18px;
+      margin: 0 30px;
+    }
+  }
+  &__airport-subtitle {
+    font-weight: 500;
+    padding-left: 24px;
+    margin-bottom: 9px;
+    margin-top: 24px;
+  }
+  &__airport-cost {
+    color: #2591FF;
+
+  }
 }

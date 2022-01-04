@@ -378,14 +378,14 @@ $('.agree-checkbox').each(function () {
 
 $(function() {
     $(".toggle-menu").click(function() {
-        $(this).toggleClass("active");
+        // $(this).toggleClass("active");
         $('.menu-drawer').toggleClass("open");
     });
 });
 
 $(function() {
     $(".toggle-search").click(function() {
-        $(this).toggleClass("active");
+        // $(this).toggleClass("active");
         $('.search-drawer').toggleClass("open");
     });
 });

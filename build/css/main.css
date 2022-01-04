@@ -3627,8 +3627,8 @@ input[type="radio"].visually-hidden {
 
 @font-face {
   font-family: "ico-font";
-  src: url("../fonts/icofont/ico-font.eot?1641253084");
-  src: url("../fonts/icofont/ico-font.eot??1641253084#iefix") format("eot"), url("../fonts/icofont/ico-font.woff2?1641253084") format("woff2"), url("../fonts/icofont/ico-font.woff?1641253084") format("woff"), url("../fonts/icofont/ico-font.ttf?1641253084") format("truetype"), url("../fonts/icofont/ico-font.svg?1641253084#ico-font") format("svg");
+  src: url("../fonts/icofont/ico-font.eot?1641302705");
+  src: url("../fonts/icofont/ico-font.eot??1641302705#iefix") format("eot"), url("../fonts/icofont/ico-font.woff2?1641302705") format("woff2"), url("../fonts/icofont/ico-font.woff?1641302705") format("woff"), url("../fonts/icofont/ico-font.ttf?1641302705") format("truetype"), url("../fonts/icofont/ico-font.svg?1641302705#ico-font") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -4164,9 +4164,6 @@ input[type="radio"].visually-hidden {
     .owl-popular-directions .owl-nav {
       display: none; } }
 
-.toggle-menu {
-  z-index: 9999; }
-
 .toggle-menu i {
   position: absolute;
   display: block;
@@ -4236,6 +4233,18 @@ input[type="radio"].visually-hidden {
 
 .menu {
   position: relative; }
+  .menu__close {
+    position: absolute;
+    left: 24px;
+    right: 24px;
+    top: 20px;
+    bottom: 0; }
+  .menu__close {
+    position: absolute;
+    left: 24px;
+    right: 24px;
+    top: 20px;
+    bottom: 0; }
   .menu__list {
     padding-left: 0;
     list-style: none;
@@ -4277,9 +4286,6 @@ input[type="radio"].visually-hidden {
   color: #E0ECF4;
   margin-bottom: 16px;
   margin-top: 25px; }
-
-.toggle-search {
-  z-index: 9999; }
 
 .toggle-search i {
   position: absolute;
@@ -4351,6 +4357,12 @@ input[type="radio"].visually-hidden {
 
 .search {
   position: relative; }
+  .search__close {
+    position: absolute;
+    left: 24px;
+    right: 24px;
+    top: 20px;
+    bottom: 0; }
   .search__list {
     padding-left: 0;
     list-style: none;
@@ -4802,6 +4814,45 @@ input[type="radio"].visually-hidden {
   .page-route__sub-h3_bold {
     font-weight: 600; }
 
+.page-route__table {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.015em;
+  text-align: left; }
+  .page-route__table-item {
+    padding: 12px 24px; }
+  .page-route__table-item:nth-child(2n+1) {
+    background: #ffffff; }
+  .page-route__table-item:nth-child(2n) {
+    background: #F8F8F8; }
+  .page-route__table-wrapper:nth-child(2) .page-route__table .page-route__table-item:nth-child(2n+1) {
+    background: #ffffff; }
+    @media (max-width: 991.98px) {
+      .page-route__table-wrapper:nth-child(2) .page-route__table .page-route__table-item:nth-child(2n+1) {
+        background: #F8F8F8; } }
+  .page-route__table-wrapper:nth-child(2) .page-route__table .page-route__table-item:nth-child(2n) {
+    background: #F8F8F8; }
+    @media (max-width: 991.98px) {
+      .page-route__table-wrapper:nth-child(2) .page-route__table .page-route__table-item:nth-child(2n) {
+        background: #ffffff; } }
+  .page-route__table-arrow {
+    background-image: url("../img/svg-icons/table_long_arrow.svg");
+    height: 18px;
+    width: 18px;
+    margin: 0 30px; }
+
+.page-route__airport-subtitle {
+  font-weight: 500;
+  padding-left: 24px;
+  margin-bottom: 9px;
+  margin-top: 24px; }
+
+.page-route__airport-cost {
+  color: #2591FF; }
+
 .skew {
   -webkit-transform: skew(-10deg, 0);
           transform: skew(-10deg, 0);
@@ -4972,3 +5023,6 @@ body {
     color: #ffffff; }
   .pages__sub-title_gray {
     color: #e0ecf4; }
+
+.visibility-hidden {
+  visibility: hidden; }

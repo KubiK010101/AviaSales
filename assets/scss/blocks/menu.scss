@@ -3,8 +3,9 @@
 
 
 .toggle-menu {
-  z-index: 9999;
+  //z-index: 9999;
 }
+
 
 .toggle-menu i {
   position: absolute;
@@ -88,7 +89,6 @@
   transition: right linear .2s;
   position: fixed;
 }
-
 //.menu-drawer {
 //  li {
 //    font-family: lato;
@@ -107,6 +107,20 @@
 //}
 .menu{
   position: relative;
+
+  &__close {
+    position: absolute;
+    left: 24px;
+    right: 24px;
+    top: 20px;
+    bottom: 0;
+  } &__close {
+    position: absolute;
+    left: 24px;
+    right: 24px;
+    top: 20px;
+    bottom: 0;
+  }
   &__list {
     padding-left: 0;
     list-style: none;

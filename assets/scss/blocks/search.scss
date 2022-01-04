@@ -11,7 +11,7 @@
 }
 
 .toggle-search {
-  z-index: 9999;
+  //z-index: 9999;
 }
 
 .toggle-search i {
@@ -118,6 +118,13 @@
 //}
 .search{
   position: relative;
+  &__close {
+    position: absolute;
+    left: 24px;
+    right: 24px;
+    top: 20px;
+    bottom: 0;
+  }
   &__list {
     padding-left: 0;
     list-style: none;

@@ -35,6 +35,7 @@
 @import "pages/page-blog";
 @import "pages/page-route";
 @import "pages/page-routes.scss";
+@import "pages/popular-directions";
 body {
     position: relative;
     //background-color: #fff;
@@ -119,4 +120,8 @@ body {
     &_gray {
         color: #e0ecf4;
     }
+}
+
+.visibility-hidden {
+    visibility: hidden;
 }
