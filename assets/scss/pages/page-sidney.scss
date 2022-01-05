@@ -1,0 +1,71 @@
+.page-sidney{
+  padding-top: 50px;
+  padding-bottom: 88px;
+    &__btn{
+      margin-bottom: 10px;
+      &_blue{
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        background-color: #25CBFF;
+        padding: 16px 36px;
+        max-width: 200px;
+        text-align: center;
+        transform: skew(-10deg);
+        display: inline-block;
+      }
+      &_white{
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.05em;
+        color: #474747;
+        background-color: #ffffff;
+        border: 1px solid #25CBFF;
+        padding: 16px 30px;
+        max-width: 200px;
+        text-align: center;
+        transform: skew(-10deg);
+        display: inline-block;
+      }
+    }
+    &__card{
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      padding: 36px 25px;
+      background: #FFFFFF;
+      border: 1px solid #E0ECF4;
+    }
+  &__card-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    color: #15181C;
+    &_blue{
+      color: #2591FF;
+    }
+  }
+  &__bottom-text{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #2591FF;
+    margin-top: 20px;
+    position: relative;
+    &::after{
+      content: " ";
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background-image: url("../../img/svg-icons/arrow-down.svg");
+      right: -20px;
+      top: 0;
+    }
+  }
+}

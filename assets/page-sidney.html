@@ -1,61 +1,19 @@
-<!doctype html>
-<html lang="ru">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	
-	<!-- ADAPTIVITY -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-	
-	<!-- Chrome, Firefox OS and Opera -->
-	<meta name="theme-color" content="#0099EF">
-	
-	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#0099EF">
-	
-	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="default">
-	<meta name="apple-touch-fullscreen" content="yes">
-	
-	<!-- CONFIG -->
-	<meta name="format-detection" content="telephone=no">
-	<title>Главная страница - Название проекта</title>
-	
+@@include('template/head.html', {
+"pagetitle": "Главная страница",
+"bodyclass": ""
+})
 
-	<!--	fonts-->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
-
-	<!-- CSS -->
-	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-	<link rel="stylesheet" href="css/main.min.css">
-
-</head>
-<body >
-
-
-
-
-
-<header class="page-header">
-	
-</header>
-
-
-
-
-
-
+@@include('template/page-header.html',{
+"active_item": "",
+"logged": "false"
+})
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+
 <div class="pages-bg">
     <div class="nav">
         <div class="my-container">
@@ -88,6 +46,11 @@
                     <h4 class="menu__title">
                         МЕНЮ
                     </h4>
+                    <!--                    <ul class="menu__list">-->
+                    <!--                        <li ></li>-->
+                    <!--                    </ul>-->
+
+
                     <div class="menu__list">
                         <a class="menu__list-item" href="#">Популярные направления</a>
                     </div>
@@ -109,6 +72,7 @@
                     <div class="menu__list">
                         <a class="menu__list-item" href="#">О нас</a>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -118,11 +82,12 @@
             <div class="row justify-content-center">
                 <div class="col-12">
                     <h2 class="pages__title">
-                        БЛОГ
+                        Сидней
                     </h2>
                     <div class="pages__sub-title">
                         <a href="#" class="pages__sub-title_gray">Главная</a>
-                        <a href="#" class=" pages__sub-title_white">/ Блог</a>
+                        <a href="#" class=" pages__sub-title_white">/ Города</a>
+                        <a href="#" class=" pages__sub-title_white">/ Сидней</a>
                     </div>
                 </div>
             </div>
@@ -130,70 +95,56 @@
     </div>
 </div>
 
+<div class="page-sidney">
+    <div class="my-container">
+        <div class="row justify-content-center">
 
-
-
-<div class="my-container">
-    <div class="row popular-directions__title-wrapper align-items-center justify-content-between">
-        <h2 class="popular-directions__title">
-            Последние новости
-        </h2>
-        <div class="popular-directions__line"></div>
-        <a href="#" class="popular-directions__btn  popular-directions__btn_lg">
-            ВСЕ НАПРАВЛЕНИЯ
-        </a>
-    </div>
-    <div class="row">
-        <div class="col-md-12 col-lg-6">
-            <div class="page-blog__card">
-                <img src="img/page-blog/blog__img-1.png" alt="" class="page-blog__card-img">
-                <div class="page-blog__card-bottom">
-                    <h5 class="page-blog__card-title">
-                        Intsel is spending $20 billion to build two new
-                        chip plants in Honkong
-                    </h5>
-                    <p class="page-blog__card-description">
-                        Описание - Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam.
-                    </p>
-                    <div class="page-blog__card-stats">
-                        <span class="page-blog__card-views">Просмотров: 831</span>
-                        <a href="#" class="page-blog__card-btn">ДЕТАЛЬНЕЕ</a>
-                    </div>
+                <a href="" class="page-sidney__btn page-sidney__btn_blue">БИЛЕТЫ В ГОРОД</a>
+                <a href="" class="page-sidney__btn page-sidney__btn_white">БИЛЕТЫ С ГОРОДА</a>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-lg-6">
+                <div class="page-sidney__card">
+                    <div class="page-sidney__card-text">11 декабря</div>
+                    <div class="page-sidney__card-text">Ливерпуль - Париж</div>
+                    <div class=" page-sidney__card-text page-sidney__card-text_blue">от 400₴</div>
+                </div>
+                <div class="page-sidney__card">
+                    <div class="page-sidney__card-text">11 декабря</div>
+                    <div class="page-sidney__card-text">Ливерпуль - Париж</div>
+                    <div class=" page-sidney__card-text page-sidney__card-text_blue">от 400₴</div>
+                </div>
+                <div class="page-sidney__card">
+                    <div class="page-sidney__card-text">11 декабря</div>
+                    <div class="page-sidney__card-text">Ливерпуль - Париж</div>
+                    <div class=" page-sidney__card-text page-sidney__card-text_blue">от 400₴</div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <div class="page-sidney__card">
+                    <div class="page-sidney__card-text">11 декабря</div>
+                    <div class="page-sidney__card-text">Ливерпуль - Париж</div>
+                    <div class=" page-sidney__card-text page-sidney__card-text_blue">от 400₴</div>
+                </div>
+                <div class="page-sidney__card">
+                    <div class="page-sidney__card-text">11 декабря</div>
+                    <div class="page-sidney__card-text">Ливерпуль - Париж</div>
+                    <div class=" page-sidney__card-text page-sidney__card-text_blue">от 400₴</div>
+                </div>
+                <div class="page-sidney__card">
+                    <div class="page-sidney__card-text">11 декабря</div>
+                    <div class="page-sidney__card-text">Ливерпуль - Париж</div>
+                    <div class=" page-sidney__card-text page-sidney__card-text_blue">от 400₴</div>
                 </div>
             </div>
         </div>
-        <div class="col-3">
-            <div class="page-blog__card">
-                <img src="img/page-blog/blog__img-1.png" alt="" class="page-blog__card-img">
-                <div class="page-blog__card-bottom ">
-                    <h5 class=" page-blog__card-title page-blog__card-title_small">
-                        Intsel is spending $20 billion to build two new
-                        chip plants in Honkong
-                    </h5>
-                </div>
+        <div class="row justify-content-center">
+            <div class="page-sidney__bottom-text">
+                БОЛЬШЕ ПРЕДЛОЖЕНИЙ
             </div>
-            <div class="page-blog__card">
-                <div class="page-blog__card-bottom">
-                    <h5 class="page-blog__card-title page-blog__card-title_small">
-                        Intsel is spending $20 billion to build two new
-                        chip plants in Honkong
-                    </h5>
-                    <p class="page-blog__card-description">
-                        Описание - Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna.
-                    </p>
-                    <div class="page-blog__card-stats">
-                        <span class="page-blog__card-views">Просмотров: 831</span>
-                        <a href="#" class="page-blog__card-btn">ДЕТАЛЬНЕЕ</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-3">
         </div>
     </div>
 </div>
-
-
 
 
 
@@ -281,7 +232,13 @@
     </div>
 </div>
 
+@@include('template/page-footer.html') @@include('template/popups.html')
 
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/plugins.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script src="js/main.min.js"></script>
+<script src="js/mainnew.min.js"></script>
 
 </body>
 </html>

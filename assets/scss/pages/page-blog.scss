@@ -10,6 +10,10 @@
     color: #15181C;
     margin-top: 30px;
     margin-bottom: 15px;
+    &_small{
+      margin-top: 15px;
+      margin-bottom: 10px;
+    }
   }
   &__card-description{
     font-size: 14px;

@@ -1,4 +1,7 @@
 .page-about{
+  &__cards-block{
+    padding-bottom: 100px;
+  }
   &__card{
     width: 100%;
     height: auto;
@@ -20,7 +23,7 @@
     &:after{
       content: " ";
       position: absolute;
-      background: rgba(255, 194, 37, 0.33);
+      background: rgba(255, 194, 37, 0.252);
       filter: blur(80px);
       top: -70px;
       left: 0;

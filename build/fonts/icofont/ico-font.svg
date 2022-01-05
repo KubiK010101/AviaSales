@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <font id="ico-font" horiz-adv-x="21.000000000000004">
+    <font-face font-family="ico-font"
+      units-per-em="21" ascent="21"
+      descent="0" />
+    <missing-glyph horiz-adv-x="0" />
+    <glyph glyph-name="arrow-down"
+      unicode="&#xE001;"
+      horiz-adv-x="21" d="M15.8123 8.373722L10.501092 3.0625L5.189842 8.373722M10.5 17.937458V3.21118" />
+    <glyph glyph-name="arrow"
+      unicode="&#xE002;"
+      horiz-adv-x="21" d="M7.79639 3.57L13.5013666666667 9.275C14.1751166666667 9.94875 14.1751166666667 11.0512383333333 13.5013666666667 11.7249883333333L7.79639 17.4299883333333" />
+    <glyph glyph-name="search"
+      unicode="&#xE003;"
+      horiz-adv-x="21" d="M10.0625 2.625C14.6534 2.625 18.375 6.3466 18.375 10.9375C18.375 15.52837 14.6534 19.25 10.0625 19.25C5.47163 19.25 1.75 15.52837 1.75 10.9375C1.75 6.3466 5.47163 2.625 10.0625 2.625zM19.25 1.75L17.5 3.5" />
+    <glyph glyph-name="table_long_arrow"
+      unicode="&#xE004;"
+      horiz-adv-x="21.000000000000004" d="M12.6263052631579 15.8112536842105L17.9375368421053 10.5L12.6263052631579 5.1887684210526M3.0621426315789 10.5H17.7884368421053" />
+  </font>
+</defs>
+</svg>

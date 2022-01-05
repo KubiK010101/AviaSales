@@ -93,14 +93,24 @@
         </div>
     </div>
 </div>
+
+
+
+
 <div class="about-us">
     <div class="my-container">
-        <div class="row justify-content-between">
-            <div class="col-12">
-                <h2 class="page-about__title">
-                    Заглавние
-                </h2>
-            </div>
+<!--        <div class="row justify-content-between">-->
+<!--            <div class="col-12">-->
+<!--                <h2 class="page-about__title">-->
+<!--                    Заглавние-->
+<!--                </h2>-->
+<!--            </div>-->
+<!--        </div>-->
+        <div class="row popular-directions__title-wrapper align-items-center justify-content-between">
+            <h2 class="popular-directions__title ">
+                Заглавние
+            </h2>
+            <div class="popular-directions__line"></div>
         </div>
         <div class="row">
             <div class="col-lg-6 col-md-12 order-2 order-lg-2">
@@ -110,32 +120,23 @@
                 <p class="about-us__text">
                     Описание - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis venenatis quis vestibulum elementum lectus vitae. Aenean laoreet vestibulum, justo, commodo faucibus fermentum aliquet vitae. Et iaculis vel sed auctor. Lacus egestas amet, diam etiam sollicitudin tristique suspendisse congue. Cursus at elit purus dolor. Ac neque consectetur viverra integer purus dolor tempor, ut.
                 </p>
-                <!--                <a href="#" class="about-us__btn  about-us__btn_sm">-->
-                <!--                    ДЕТАЛЬНЕЕ О НАС-->
-                <!--                </a>-->
-                <!--                <div class="about-us__contacts about-us__contacts_sm">-->
-                <!--                    <p class="about-us__phone">+38 (050) 50 05 505</p>-->
-                <!--                    <p class="about-us__email">example@mail.com</p>-->
-                <!--                </div>-->
             </div>
             <div class="col-lg-6 col-md-12 order-1 order-lg-2">
                 <img src="img/main-page/about-us__img.png" alt="" class="about-us__img">
             </div>
-            <!--            <div class="about-us__contacts about-us__contacts_lg">-->
-            <!--                <p class="about-us__phone">+38 (050) 50 05 505</p>-->
-            <!--                <p class="about-us__email">example@mail.com</p>-->
-            <!--            </div>-->
-            <!--            <a href="#" class="about-us__btn  about-us__btn_lg">-->
-            <!--                НАПИСАТЬ НАМ-->
-            <!--            </a>-->
-
         </div>
-        <div class="row">
-            <div class="col-12">
-                <h2 class="page-about__title page-about__title_mb60">
-                    Преимущества
-                </h2>
-            </div>
+<!--        <div class="row">-->
+<!--            <div class="col-12">-->
+<!--                <h2 class="page-about__title ">-->
+<!--                    Преимущества-->
+<!--                </h2>-->
+<!--            </div>-->
+<!--        </div>-->
+        <div class="row popular-directions__title-wrapper align-items-center justify-content-between">
+            <h2 class="popular-directions__title ">
+                Преимущества
+            </h2>
+            <div class="popular-directions__line"></div>
         </div>
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-3">
@@ -181,13 +182,14 @@
         </div>
     </div>
 </div>
-<div class="answer">
+<div class="page-about__cards-block">
     <div class="my-container">
-        <div class="row justify-content-between">
+        <div class="row popular-directions__title-wrapper align-items-center justify-content-between">
             <h2 class="popular-directions__title ">
                 Возникли вопросы?
             </h2>
-            <a href="#" class="popular-directions__btn popular-directions__btn_blue popular-directions__btn_lg">
+            <div class="popular-directions__line"></div>
+            <a href="#" class="popular-directions__btn popular-directions__btn_lg popular-directions__btn_blue">
                 ВСЕ ВОПРОСЫ
             </a>
         </div>
@@ -196,14 +198,26 @@
         <div class="row">
             <div class="col-12">
                 <div class="answer__card">
-                    <div class="answer__card-text">
+                    <div class="answer__card-text" data-target="answer-card-1" data-action="toggle">
                         Вопрос №1 ?
                     </div>
                 </div>
+                <div class="answer__card-content" data-toggle-id="answer-card-1" data-toggle-group="action-card">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores vero repellendus, beatae earum, ea voluptas quaerat, ipsa accusantium animi eum nobis? Quae autem quo ipsam deleniti cum reiciendis distinctio, nemo alias eum recusandae tenetur minima
+                    dolores nisi ab culpa praesentium eveniet, provident at temporibus, reprehenderit assumenda corporis eius! Repudiandae ipsam perferendis maiores dolorem, voluptatibus officiis qui sunt est quia deleniti vel. Similique corporis perferendis
+                    dolor cupiditate nisi sequi? Esse nisi eos aliquid error debitis incidunt dolor cupiditate officiis nostrum earum. Quae dolore quasi veritatis eius error. Itaque delectus repellat illum beatae architecto recusandae consectetur porro
+                    fugit sequi ex! Laudantium, facere.
+                </div>
                 <div class="answer__card">
-                    <div class="answer__card-text">
-                        Вопрос №1 ?
+                    <div class="answer__card-text" data-target="answer-card-2" data-action="toggle">
+                        Вопрос №2 ?
                     </div>
+                </div>
+                <div class="answer__card-content" data-toggle-id="answer-card-2" data-toggle-group="action-card">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores vero repellendus, beatae earum, ea voluptas quaerat, ipsa accusantium animi eum nobis? Quae autem quo ipsam deleniti cum reiciendis distinctio, nemo alias eum recusandae tenetur minima
+                    dolores nisi ab culpa praesentium eveniet, provident at temporibus, reprehenderit assumenda corporis eius! Repudiandae ipsam perferendis maiores dolorem, voluptatibus officiis qui sunt est quia deleniti vel. Similique corporis perferendis
+                    dolor cupiditate nisi sequi? Esse nisi eos aliquid error debitis incidunt dolor cupiditate officiis nostrum earum. Quae dolore quasi veritatis eius error. Itaque delectus repellat illum beatae architecto recusandae consectetur porro
+                    fugit sequi ex! Laudantium, facere.
                 </div>
             </div>
         </div>
@@ -293,7 +307,13 @@
     </div>
 </div>
 
+@@include('template/page-footer.html') @@include('template/popups.html')
 
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/plugins.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script src="js/main.min.js"></script>
+<script src="js/mainnew.min.js"></script>
 
 </body>
 </html>
