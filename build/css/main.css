@@ -3627,12 +3627,12 @@ input[type="radio"].visually-hidden {
 
 @font-face {
   font-family: "ico-font";
-  src: url("../fonts/icofont/ico-font.eot?1641483202");
-  src: url("../fonts/icofont/ico-font.eot??1641483202#iefix") format("eot"), url("../fonts/icofont/ico-font.woff2?1641483202") format("woff2"), url("../fonts/icofont/ico-font.woff?1641483202") format("woff"), url("../fonts/icofont/ico-font.ttf?1641483202") format("truetype"), url("../fonts/icofont/ico-font.svg?1641483202#ico-font") format("svg");
+  src: url("../fonts/icofont/ico-font.eot?1641427146");
+  src: url("../fonts/icofont/ico-font.eot??1641427146#iefix") format("eot"), url("../fonts/icofont/ico-font.woff2?1641427146") format("woff2"), url("../fonts/icofont/ico-font.woff?1641427146") format("woff"), url("../fonts/icofont/ico-font.ttf?1641427146") format("truetype"), url("../fonts/icofont/ico-font.svg?1641427146#ico-font") format("svg");
   font-weight: normal;
   font-style: normal; }
 
-.icon-arrow-down:before, .icon-arrow:before, .icon-search:before, .icon-table_long_arrow:before {
+.icon-arrow:before, .icon-search:before, .icon-table_long_arrow:before, .icon-toggle-order:before {
   font-family: "ico-font";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3642,20 +3642,20 @@ input[type="radio"].visually-hidden {
   text-decoration: none;
   text-transform: none;
   line-height: 1; }
-  .icon-arrow-down:before, .icon-arrow:before, .icon-search:before, .icon-table_long_arrow:before {
+  .icon-arrow:before, .icon-search:before, .icon-table_long_arrow:before, .icon-toggle-order:before {
     display: block;
     line-height: 1; }
 
-.icon-arrow-down:before {
+.icon-arrow:before {
   content: ""; }
 
-.icon-arrow:before {
+.icon-search:before {
   content: ""; }
 
-.icon-search:before {
+.icon-table_long_arrow:before {
   content: ""; }
 
-.icon-table_long_arrow:before {
+.icon-toggle-order:before {
   content: ""; }
 
 .owl-wrapper {
@@ -3827,7 +3827,7 @@ input[type="radio"].visually-hidden {
         display: none; } }
   .nav__list-item {
     display: inline;
-    margin-left: 44px;
+    padding-left: 44px;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -3843,22 +3843,18 @@ input[type="radio"].visually-hidden {
   .nav__list-item_taken:after {
     content: " ";
     background: url("../../img/main-page/nav-list-after.svg");
-    background-size: 50%;
     position: absolute;
     bottom: -4px;
-    width: auto;
+    width: 28px;
     height: 2px;
-    right: 0;
-    left: 0; }
+    right: 0; }
   .nav__list-item_taken:before {
     content: " ";
     background: url("../../img/main-page/nav-list-after.svg");
     position: absolute;
     bottom: -4px;
-    display: none;
-    width: 50%;
-    height: 2px;
-    left: 0; }
+    width: 28px;
+    height: 2px; }
   .nav__border-btn {
     background-image: url("../../img/main-page/border_btn.svg");
     width: 56px;
@@ -4231,10 +4227,6 @@ input[type="radio"].visually-hidden {
   top: 0;
   transition: right linear .2s;
   z-index: 8888; }
-  @media (max-width: 767.98px) {
-    .menu-drawer {
-      height: 100%;
-      width: 100%; } }
 
 .open {
   display: block;
@@ -4870,15 +4862,6 @@ input[type="radio"].visually-hidden {
 .page-route__airport-cost {
   color: #2591FF; }
 
-.skew {
-  -webkit-transform: skew(-10deg, 0);
-          transform: skew(-10deg, 0);
-  margin: 0 5px;
-  padding: 0; }
-  .skew > * {
-    -webkit-transform: skew(10deg, 0);
-            transform: skew(10deg, 0); }
-
 .routes__search-wrapper {
   background-color: white;
   padding: 18px 25px; }
@@ -5033,6 +5016,129 @@ input[type="radio"].visually-hidden {
       right: -20px;
       top: 0; }
 
+.world-countries__search-wrapper {
+  background-color: white;
+  padding: 18px 25px; }
+
+.world-countries__search {
+  background-color: white;
+  border: none !important; }
+  .world-countries__search:focus {
+    outline: none; }
+  .world-countries__search-icon {
+    background-image: url("../img/svg-icons/search.svg");
+    width: 16px;
+    height: 16px;
+    background-size: contain; }
+
+.world-countries__nav-link {
+  color: #2591ff;
+  position: relative;
+  margin: 0 20px; }
+  .world-countries__nav-link.disabled {
+    mix-blend-mode: luminosity; }
+  .world-countries__nav-link_arrow-right.disabled::after, .world-countries__nav-link_arrow-left.disabled::after {
+    mix-blend-mode: luminosity; }
+  .world-countries__nav-link_arrow-right::after {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    right: -18px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    background-image: url("../img/svg-icons/arrow.svg"); }
+  .world-countries__nav-link_arrow-left::after {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    left: -18px;
+    top: 50%;
+    -webkit-transform: translateY(-50%) rotate(180deg);
+            transform: translateY(-50%) rotate(180deg);
+    background-image: url("../img/svg-icons/arrow.svg"); }
+
+.world-countries__table-wrapper {
+  overflow-x: auto; }
+
+.world-countries__table {
+  min-width: 900px;
+  width: 100%;
+  table-layout: fixed; }
+  .world-countries__table tr:nth-child(2n+1) {
+    background: #ffffff; }
+  .world-countries__table tr:nth-child(2n) {
+    background: #F8F8F8; }
+  .world-countries__table tr th,
+  .world-countries__table tr td {
+    padding: 11px 0;
+    padding-left: 20px; }
+    .world-countries__table tr th:first-child,
+    .world-countries__table tr td:first-child {
+      padding-left: 24px; }
+    .world-countries__table tr th:last-child,
+    .world-countries__table tr td:last-child {
+      padding-right: 29px; }
+  .world-countries__table td:nth-child(1),
+  .world-countries__table th:nth-child(1) {
+    width: 25%; }
+  .world-countries__table td:nth-child(2),
+  .world-countries__table th:nth-child(2) {
+    width: 25%; }
+  .world-countries__table td:nth-child(3),
+  .world-countries__table th:nth-child(3) {
+    width: 33.33%; }
+  .world-countries__table td:nth-child(4),
+  .world-countries__table th:nth-child(4) {
+    width: 16.67%; }
+  .world-countries__table-item {
+    padding: 12px 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center; }
+  .world-countries__table-item:nth-child(2n+1) {
+    background: #ffffff; }
+  .world-countries__table-item:nth-child(2n) {
+    background: #F8F8F8; }
+  .world-countries__table-wrapper:nth-child(2) .world-countries__table .world-countries__table-item:nth-child(2n+1) {
+    background: #ffffff; }
+    @media (max-width: 991.98px) {
+      .world-countries__table-wrapper:nth-child(2) .world-countries__table .world-countries__table-item:nth-child(2n+1) {
+        background: #F8F8F8; } }
+  .world-countries__table-wrapper:nth-child(2) .world-countries__table .world-countries__table-item:nth-child(2n) {
+    background: #F8F8F8; }
+    @media (max-width: 991.98px) {
+      .world-countries__table-wrapper:nth-child(2) .world-countries__table .world-countries__table-item:nth-child(2n) {
+        background: #ffffff; } }
+  .world-countries__table-arrow {
+    background-image: url("../img/svg-icons/table_long_arrow.svg");
+    height: 18px;
+    width: 18px;
+    margin: 0 30px; }
+  .world-countries__table-country-flag {
+    height: 11px;
+    width: 16px;
+    object-fit: contain; }
+  .world-countries__table-toggle-order-link {
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/svg-icons/toggle-order.svg"); }
+
+.world-countries__annotation {
+  margin: 0;
+  padding: 0;
+  margin-left: 25px; }
+  @media (max-width: 991.98px) {
+    .world-countries__annotation {
+      margin-left: 0; } }
+
 body {
   position: relative;
   -webkit-font-smoothing: antialiased;
@@ -5110,3 +5216,10 @@ body {
 
 .visibility-hidden {
   visibility: hidden; }
+
+.skew {
+  -webkit-transform: skew(-10deg, 0);
+          transform: skew(-10deg, 0); }
+  .skew > * {
+    -webkit-transform: skew(10deg, 0);
+            transform: skew(10deg, 0); }

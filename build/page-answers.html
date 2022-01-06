@@ -292,20 +292,10 @@
         </div>
     </div>
 </div>
-<link rel="stylesheet" href="/widgets/widets.css">
-
-
-<script src="js/jquery-3.4.1.min.js"></script>
-<script src="js/plugins.min.js"></script>
-<script src="owlcarousel/owl.carousel.min.js"></script>
-<script src="js/main.min.js"></script>
-<script src="js/mainnew.min.js"></script>
 
 
 </body>
-
 </html>
-
  <div class="popup-block" id="popup-id">
 	<div class="popup-block__overlay">
 		<div class="popup-block__popup">
@@ -318,3 +308,21 @@
 	</div>
 </div>
 
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/plugins.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script src="js/main.min.js"></script>
+<script src="js/mainnew.min.js"></script>
+<script>
+    function correctNames() {
+        let number = setInterval(() => {
+            let btn = $('#tp-sbscr-widget-1 .tp-sbscr-widget-button-wrapper button');
+            let content = btn.html();
+            content = content.split(' ')[0];
+            console.log('content', content);
+            btn.html(content);
+            clearInterval(number);
+        }, 500);
+    }
+    correctNames();
+</script>
