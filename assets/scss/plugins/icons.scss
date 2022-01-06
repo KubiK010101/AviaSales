@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "ico-font";
-	src: url('../fonts/icofont/ico-font.eot?1641427146');
-	src: url('../fonts/icofont/ico-font.eot??1641427146#iefix') format('eot'),
-		url('../fonts/icofont/ico-font.woff2?1641427146') format('woff2'),
-		url('../fonts/icofont/ico-font.woff?1641427146') format('woff'),
-		url('../fonts/icofont/ico-font.ttf?1641427146') format('truetype'),
-		url('../fonts/icofont/ico-font.svg?1641427146#ico-font') format('svg');
+	src: url('../fonts/icofont/ico-font.eot?1641483268');
+	src: url('../fonts/icofont/ico-font.eot??1641483268#iefix') format('eot'),
+		url('../fonts/icofont/ico-font.woff2?1641483268') format('woff2'),
+		url('../fonts/icofont/ico-font.woff?1641483268') format('woff'),
+		url('../fonts/icofont/ico-font.ttf?1641483268') format('truetype'),
+		url('../fonts/icofont/ico-font.svg?1641483268#ico-font') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -36,16 +36,16 @@
 @function icon-char($filename) {
 	$char: "";
 
-	@if $filename == arrow {
+	@if $filename == arrow-down {
 		$char: "\E001";
 	}
-	@if $filename == search {
+	@if $filename == arrow {
 		$char: "\E002";
 	}
-	@if $filename == table_long_arrow {
+	@if $filename == search {
 		$char: "\E003";
 	}
-	@if $filename == toggle-order {
+	@if $filename == table_long_arrow {
 		$char: "\E004";
 	}
 
@@ -63,6 +63,9 @@
 	}
 }
 
+.icon-arrow-down {
+	@include icon(arrow-down);
+}
 .icon-arrow {
 	@include icon(arrow);
 }
@@ -72,7 +75,3 @@
 .icon-table_long_arrow {
 	@include icon(table_long_arrow);
 }
-.icon-toggle-order {
-	@include icon(toggle-order);
-}
-

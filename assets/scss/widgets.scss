@@ -1,0 +1,376 @@
+.mewtwo-widget .mewtwo-flights-dates {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    -moz-transform: skew(-10deg, 0deg);
+    -webkit-transform: skew(-10deg, 0deg);
+    -o-transform: skew(-10deg, 0deg);
+    -ms-transform: skew(-10deg, 0deg);
+    transform: skew(-10deg, 0deg);
+    border-radius: 0 !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.mewtwo-widget .mewtwo-flights-origin .mewtwo-hotels-guests__text,
+.mewtwo-widget .mewtwo-flights-origin>input[type=text] {
+    border-radius: 0 !important;
+    border: 1px solid #E0ECF4!important;
+    -webkit-box-shadow: none !important;
+    height: 60px !important;
+}
+
+.mewtwo-widget--6a027a514b76885e69668b8ef1e083c6 .mewtwo-flights-container input[type="text"],
+.mewtwo-widget--6a027a514b76885e69668b8ef1e083c6 .mewtwo-flights-trip_class {
+    border-radius: 0 !important;
+    border: 1px solid #E0ECF4!important;
+    -webkit-box-shadow: none !important;
+    height: 60px !important;
+    font-size: 14px!important;
+}
+
+.mewtwo-widget .mewtwo-flights-dates .mewtwo-flights-dates-depart input[type=text] {
+    border-radius: 0 !important;
+    border: 1px solid #E0ECF4!important;
+    -webkit-box-shadow: none !important;
+    height: 60px !important;
+}
+
+.mewtwo-widget .mewtwo-flights-dates .mewtwo-flights-dates-return input[type=text] {
+    border-radius: 0 !important;
+    border: 1px solid #E0ECF4!important;
+    -webkit-box-shadow: none !important;
+    height: 60px !important;
+}
+
+.mewtwo-flights--xs .mewtwo-widget .mewtwo-flights-dates .mewtwo-flights-dates-depart input[type=text] {
+    border-radius: 0 !important;
+}
+
+.mewtwo-flights--xs .mewtwo-widget .mewtwo-flights-dates .mewtwo-flights-dates-return input[type=text] {
+    border-radius: 0 !important;
+}
+
+.mewtwo-flights--xs .mewtwo-widget .mewtwo-flights-dates .mewtwo-flights-dates-depart {
+    width: 50%!important;
+    margin-bottom: 0!important;
+}
+
+.mewtwo-flights--xs .mewtwo-widget .mewtwo-flights-dates .mewtwo-flights-dates-return {
+    width: 50%!important;
+}
+
+.mewtwo-flights--xs .mewtwo-widget .mewtwo-flights-submit_button>button {
+    display: block!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+.mewtwo-widget .mewtwo-flights-origin-country {
+    top: 32px!important;
+    padding-left: 8px!important;
+
+}
+.mewtwo-flights-trip_class-wrapper mewtwo-flights-trip_class-wrapper--new {
+    border-radius: 0 !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    height: 60px !important;
+}
+.mewtwo-widget .mewtwo-flights-origin {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    -moz-transform: skew(-10deg, 0deg);
+    -webkit-transform: skew(-10deg, 0deg);
+    -o-transform: skew(-10deg, 0deg);
+    -ms-transform: skew(-10deg, 0deg);
+    transform: skew(-10deg, 0deg);
+    border-radius: 0;
+}
+.mewtwo-widget .mewtwo-flights-destination {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    -moz-transform: skew(-10deg, 0deg);
+    -webkit-transform: skew(-10deg, 0deg);
+    -o-transform: skew(-10deg, 0deg);
+    -ms-transform: skew(-10deg, 0deg);
+    transform: skew(-10deg, 0deg);
+    border-radius: 0;
+}
+.mewtwo-widget .mewtwo-flights-trip_class {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    -moz-transform: skew(-10deg, 0deg);
+    -webkit-transform: skew(-10deg, 0deg);
+    -o-transform: skew(-10deg, 0deg);
+    -ms-transform: skew(-10deg, 0deg);
+    transform: skew(-10deg, 0deg);
+    border-radius: 0;
+}
+.mewtwo-widget--6a027a514b76885e69668b8ef1e083c6 .mewtwo-flights-submit_button button {
+    -moz-transform: skew(-10deg, 0deg);
+    -webkit-transform: skew(-10deg, 0deg);
+    -o-transform: skew(-10deg, 0deg);
+    -ms-transform: skew(-10deg, 0deg);
+    transform: skew(-10deg, 0deg);
+    border-radius: 0;
+}
+.mewtwo-widget .mewtwo-flights-submit_button>button {
+    height: 60px !important;
+    max-width: 220px;
+    border-radius: 0 !important;
+}
+.mewtwo-widget .mewtwo-flights-origin-country__name {
+    /*position: relative;*/
+    /*padding-left: 3mm!important;*/
+    /*padding-left: 8px!important;*/
+}
+.tp-sbscr-widget {
+    top: 31px!important;
+    right: 0!important;
+    padding-left: 20px!important;
+}
+.mewtwo-widget .mewtwo-flights-destination-country{
+    top: 31px!important;
+}
+.tp-sbscr-widget:before {}
+#tp-sbscr-widget-1.tp-sbscr-widget:before,
+.tp-sbscr-widget-icon.tp-sbscr-widget-icon-plane_shadow {
+    display: none;
+}
+#tp-sbscr-widget-1.tp-sbscr-widget:after,
+.tp-sbscr-widget-icon.tp-sbscr-widget-icon-plane_shadow {
+    background-image: url("/img/main-page/plane.svg");
+    width: 255px;
+    height: 203px;
+}
+.tp-sbscr-widget-alert {
+    display: none;
+}
+#tp-sbscr-widget-1.tp-sbscr-widget.tp-sbscr-widget--wide .tp-sbscr-widget-description-wrapper {
+    float: none;
+}
+.mewtwo-flights-submit_button mewtwo-flights-submit_button--new button * {
+    transform: skew( 10deg, 0deg);
+}
+
+
+.tp-sbscr-widget tp-sbscr-widget--wide tp-sbscr-widget--shown{
+    background: #FFFFFF!important;
+}
+.tp-sbscr-widget-description {
+    font-size: 14px !important;
+    line-height: 16px !important;
+    letter-spacing: 0.015em !important;
+    color: #15181C !important;
+}
+
+/*its title*/
+.tp-sbscr-widget-header {
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    line-height: 27px !important;
+    color: #15181C !important;
+}
+.tp-sbscr-widget-description {
+    font-size: 14px !important;
+    line-height: 16px !important;
+    letter-spacing: 0.015em !important;
+    color: #15181C !important;
+    width: 245px !important;
+}
+.tp-sbscr-widget-header,
+.tp-sbscr-widget-description,
+.tp-sbscr-widget-agreement__text {
+    margin-left: 40px !important;
+}
+.mewtwo-widget--6a027a514b76885e69668b8ef1e083c6 .mewtwo-flights-container input[type="text"],
+.mewtwo-widget--6a027a514b76885e69668b8ef1e083c6 .mewtwo-flights-trip_class {
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 18px !important;
+    letter-spacing: 0.015em !important;
+    color: #0F0F0F !important;
+}
+.tp-sbscr-widget-agreement__text {
+    font-size: 14px !important;
+    line-height: 17px !important;
+    color: #7D8084 !important;
+    text-align: left !important;
+}
+#tp-sbscr-widget-1.tp-sbscr-widget .tp-sbscr-widget-agreement__text a {
+    font-size: 14px !important;
+    line-height: 17px !important;
+    color: #7D8084 !important;
+    text-align: left !important;
+}
+#tp-sbscr-widget-1.tp-sbscr-widget.tp-sbscr-widget--normal button,
+#tp-sbscr-widget-1.tp-sbscr-widget.tp-sbscr-widget--wide button {
+    background: linear-gradient(270deg, #25CBFF 0%, #2591FF 100%) !important;
+    -webkit-transform: skew(-10deg, 0deg);
+    border-radius: 0;
+    height: 60px;
+}
+#tp-sbscr-widget-1.tp-sbscr-widget.tp-sbscr-widget--normal button,
+#tp-sbscr-widget-1.tp-sbscr-widget.tp-sbscr-widget--wide button:hover {
+    background: linear-gradient(270deg, #25CBFF 0%, #2591FF 100%) !important;
+    -webkit-transform: skew(-10deg, 0deg);
+    border-radius: 0;
+    height: 60px;
+}
+.tp-sbscr-widget {
+    max-width: 790px !important;
+    outline: 15px solid #FFFFFF;
+}
+.tp-sbscr-widget::after {
+    transform: translate(-30px, -50px)!important;
+    background-size: contain;
+}
+.tp-sbscr-widget-wrapper {
+    width: 100%!important;
+}
+.tp-sbscr-widget-email-wrapper input {
+    display: block!important;
+    width: 100% !important;
+    transform: translateX(8px) skew( -10deg, 0)!important;
+}
+#tp-sbscr-widget-1.tp-sbscr-widget.tp-sbscr-widget--wide input {
+    border-radius: 0;
+    border: 1px solid #CBCBCB;
+    height: 60px;
+    -webkit-transform: skew(-10deg, 0deg);
+}
+.tp-sbscr-widget-email-wrapper {
+    width: 66.6% !important;
+    margin-right: 0;
+}
+@media (max-width: 767.98px) {
+    .tp-sbscr-widget::after {
+        display: none;
+    }
+
+    .tp-sbscr-widget-header,
+    .tp-sbscr-widget-description,
+    .tp-sbscr-widget-agreement__text {
+        text-align: center!important;
+        display: block;
+        width: 100%!important;
+        padding: 0!important;
+        margin: 0!important;
+    }
+
+    .tp-sbscr-widget-agreement__text {
+        display: none!important;
+    }
+
+    .tp-sbscr-widget-email-wrapper {
+        width: 100%!important;
+        display: block!important;
+        transform: translateX(-8px) skew( -10deg, 0)!important;
+        border: 1px solid #CBCBCB;
+    }
+
+    .tp-sbscr-widget-email-wrapper input {
+        display: block;
+        margin: 0 auto!important;
+        float: none!important;
+        width: 95%!important;
+        transform: skew(10deg, 0)!important;
+    }
+
+    .tp-sbscr-widget-button-wrapper {
+        width: 100%!important;
+        display: block!important;
+        transform: translateX(0px) skew( -10deg, 0)!important;
+    }
+
+    .tp-sbscr-widget-button-wrapper {
+        -webkit-transform: translateX(0px) skew( -10deg, 0deg)!important;
+        background: linear-gradient( 270deg, #25CBFF 0%, #2591FF 100%) !important;
+    }
+
+    #tp-sbscr-widget-1.tp-sbscr-widget.tp-sbscr-widget--normal button,
+    #tp-sbscr-widget-1.tp-sbscr-widget.tp-sbscr-widget--wide button {
+        background: linear-gradient(270deg, #25CBFF 0%, #2591FF 100%) !important;
+        -webkit-transform: skew(10deg, 0deg)!important;
+        border-radius: 0!important;
+        height: 42px!important;
+    }
+
+    #tp-sbscr-widget-1.tp-sbscr-widget .tp-sbscr-widget-button-wrapper button {
+        /*background: linear-gradient(270deg, #25CBFF 0%, #2591FF 100%)!important;*/
+        background: transparent!important;
+    }
+
+    #tp-sbscr-widget-1.tp-sbscr-widget.tp-sbscr-widget--wide .tp-sbscr-widget-description-wrapper {
+        width: 100%!important;
+    }
+
+    #tp-sbscr-widget-1.tp-sbscr-widget.tp-sbscr-widget--wide input {
+        height: 42px!important;
+        border: none!important;
+    }
+
+    .tp-sbscr-widget-email-wrapper {
+        -webkit-transform: translateX(0px) skew( -10deg, 0deg)!important;
+    }
+    @media (max-width: 767.98px) {
+        .mewtwo-flights--m .mewtwo-widget .mewtwo-flights-submit_button{
+            display: block!important;
+            left: 0!important;
+            right: 0!important;
+            margin-left: auto!important;
+            margin-right: auto!important;
+            width: 100% !important;
+        }
+        .mewtwo-widget .mewtwo-flights-submit_button>button{
+            max-width: none!important;
+        }
+    }
+}
+#tp-sbscr-widget-1{
+    background-color: #FFFFFF!important;
+    border: 1px solid #E0ECF4;
+}
+#tp-sbscr-widget-1.tp-sbscr-widget.tp-sbscr-widget--wide button{
+    font-weight: bold!important;
+    font-size: 15px!important;
+    line-height: 18px!important;
+    letter-spacing: 0.05em!important;
+    color: #FFFFFF!important;
+    text-transform: uppercase!important;
+}
+
+/*cards-widget-style*/
+.ducklett-widget .ducklett-special_offer--W6 .ducklett-special_offer-title-wrapper {
+    background: #15181C!important;
+}
+.ducklett-widget .ducklett-special_offer__title {
+    display: table-cell!important;
+    width: 100%!important;
+    height: 60px !important;
+    vertical-align: middle!important;
+    white-space: normal!important;
+    font-weight: bold!important;
+    font-size: 20px!important;
+    line-height: 24px!important;
+    text-align: center!important;
+    color: #FFFFFF!important;
+}
+.ducklett-widget .ducklett-special_offer-body__button {
+    background: linear-gradient(270deg, #25CBFF 0%, #2591FF 100%) !important;
+    padding: 16px 45px!important;
+    display: block!important;
+    max-width: 249px!important;
+    left: 0!important;
+    font-weight: bold!important;
+    font-size: 15px!important;
+    line-height: 18px!important;
+    letter-spacing: 0.05em!important;
+    color: #FFFFFF!important;
+    right: 0!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    margin-top: 41px!important;
+    transform: skew(-10deg)!important;
+    text-align: center!important;
+}
+

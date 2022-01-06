@@ -37,7 +37,6 @@
 @import "pages/page-routes.scss";
 @import "pages/popular-directions";
 @import "pages/page-sidney";
-@import "pages/page-220-world-contries.scss";
 body {
     position: relative;
     //background-color: #fff;
@@ -128,9 +127,6 @@ body {
     visibility: hidden;
 }
 
-.skew {
-    transform: skew(-10deg, 0);
-    &>* {
-        transform: skew(10deg, 0);
-    }
-}
+
+
+

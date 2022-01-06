@@ -25,7 +25,7 @@
   }
   &__list-item{
     display: inline;
-    padding-left: 44px;
+    margin-left: 44px;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -45,19 +45,23 @@
     &:after{
       content: " ";
       background: url("../../img/main-page/nav-list-after.svg");
+      background-size: 50%;
       position: absolute;
       bottom: -4px;
-      width: 28px;
+      width: auto;
       height: 2px;
       right: 0;
+      left: 0;
     }
     &:before{
       content: " ";
       background: url("../../img/main-page/nav-list-after.svg");
       position: absolute;
       bottom: -4px;
-      width: 28px;
+      display: none;
+      width: 50%;
       height: 2px;
+      left: 0;
     }
   }
   &__border-btn{
