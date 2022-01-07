@@ -7,6 +7,9 @@
     color: #E0ECF4;
     margin-bottom: 16px;
     margin-top: 25px;
+    @media (max-width: 767.98px) {
+      font-size: 16px;
+    }
   }
 }
 
@@ -89,6 +92,11 @@
   z-index: 8888;
   padding-left: 80px;
   padding-right: 80px;
+  @media (max-width: 767.98px) {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60%;
+  }
 
 }
 

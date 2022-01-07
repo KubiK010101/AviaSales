@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "ico-font";
-	src: url('../fonts/icofont/ico-font.eot?1641483268');
-	src: url('../fonts/icofont/ico-font.eot??1641483268#iefix') format('eot'),
-		url('../fonts/icofont/ico-font.woff2?1641483268') format('woff2'),
-		url('../fonts/icofont/ico-font.woff?1641483268') format('woff'),
-		url('../fonts/icofont/ico-font.ttf?1641483268') format('truetype'),
-		url('../fonts/icofont/ico-font.svg?1641483268#ico-font') format('svg');
+	src: url('../fonts/icofont/ico-font.eot?1641573519');
+	src: url('../fonts/icofont/ico-font.eot??1641573519#iefix') format('eot'),
+		url('../fonts/icofont/ico-font.woff2?1641573519') format('woff2'),
+		url('../fonts/icofont/ico-font.woff?1641573519') format('woff'),
+		url('../fonts/icofont/ico-font.ttf?1641573519') format('truetype'),
+		url('../fonts/icofont/ico-font.svg?1641573519#ico-font') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -48,6 +48,9 @@
 	@if $filename == table_long_arrow {
 		$char: "\E004";
 	}
+	@if $filename == toggle-order {
+		$char: "\E005";
+	}
 
 	@return $char;
 }
@@ -74,4 +77,7 @@
 }
 .icon-table_long_arrow {
 	@include icon(table_long_arrow);
+}
+.icon-toggle-order {
+	@include icon(toggle-order);
 }
