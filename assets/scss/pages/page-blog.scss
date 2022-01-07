@@ -1,4 +1,9 @@
 .page-blog{
+  padding-top: 60px;
+  padding-bottom: 50px;
+  &__card{
+    margin-bottom: 20px;
+  }
   &__card-img{
     width: 100%;
     height: auto;
