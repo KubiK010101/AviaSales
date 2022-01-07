@@ -1,4 +1,4 @@
-.world-countries {
+.page-airport {
     &__search-wrapper {
         background-color: white;
         padding: 18px 25px;
@@ -50,8 +50,11 @@
             background-image: url("../img/svg-icons/arrow.svg");
         }
     }
-    &__table-wrapper {
+    &__tables-wrapper {
         overflow-x: auto;
+    }
+    &__table-wrapper {
+        min-width: 450px;
     }
     &__table {
         & tr {
@@ -88,23 +91,24 @@
         }
         & td:nth-child(1),
         & th:nth-child(1) {
-            width: 25%;
+            width: 33.33%;
         }
         & td:nth-child(2),
         & th:nth-child(2) {
-            width: 25%;
+            width: 33.33%;
         }
         & td:nth-child(3),
         & th:nth-child(3) {
             width: 33.33%;
         }
-        & td:nth-child(4),
-        & th:nth-child(4) {
-            width: 16.67%;
-        }
-        min-width: 900px;
         width: 100%;
         table-layout: fixed;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
         &-item {
             padding: 12px 0;
             display: flex;

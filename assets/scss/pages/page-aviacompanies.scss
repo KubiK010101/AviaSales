@@ -1,4 +1,4 @@
-.world-countries {
+.page-aviacompanies {
     &__search-wrapper {
         background-color: white;
         padding: 18px 25px;
@@ -50,8 +50,11 @@
             background-image: url("../img/svg-icons/arrow.svg");
         }
     }
-    &__table-wrapper {
+    &__tables-wrapper {
         overflow-x: auto;
+    }
+    &__table-wrapper {
+        min-width: 450px;
     }
     &__table {
         & tr {
@@ -59,7 +62,7 @@
                 background: #ffffff;
             }
             &:nth-child(2n) {
-                background: #F8F8F8;
+                background: #f8f8f8;
             }
             & td:first-child {
                 color: #2591ff;
@@ -88,23 +91,24 @@
         }
         & td:nth-child(1),
         & th:nth-child(1) {
-            width: 25%;
+            width: 33.33%;
         }
         & td:nth-child(2),
         & th:nth-child(2) {
-            width: 25%;
+            width: 33.33%;
         }
         & td:nth-child(3),
         & th:nth-child(3) {
             width: 33.33%;
         }
-        & td:nth-child(4),
-        & th:nth-child(4) {
-            width: 16.67%;
-        }
-        min-width: 900px;
         width: 100%;
         table-layout: fixed;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
         &-item {
             padding: 12px 0;
             display: flex;
@@ -115,27 +119,33 @@
             background: #ffffff;
         }
         &-item:nth-child(2n) {
-            background: #F8F8F8;
+            background: #f8f8f8;
         }
         &-wrapper:nth-child(2) & &-item {
             &:nth-child(2n+1) {
                 background: #ffffff;
                 @media (max-width: 991.98px) {
-                    background: #F8F8F8;
+                    background: #f8f8f8;
                 }
             }
             &:nth-child(2n) {
-                background: #F8F8F8;
+                background: #f8f8f8;
                 @media (max-width: 991.98px) {
                     background: #ffffff;
                 }
             }
         }
         &-arrow {
-            background-image: url('../img/svg-icons/table_long_arrow.svg');
+            background-image: url("../img/svg-icons/table_long_arrow.svg");
             height: 18px;
             width: 18px;
             margin: 0 30px;
+        }
+        &-aviacompany-logo {
+            width: 62px;
+            height: 21px;
+            object-fit: contain;
+            display: block;
         }
         &-country-flag {
             height: 11px;
@@ -145,7 +155,7 @@
         &-toggle-order-link {
             width: 18px;
             height: 18px;
-            background-image: url('../img/svg-icons/toggle-order.svg');
+            background-image: url("../img/svg-icons/toggle-order.svg");
         }
     }
     &__annotation {
