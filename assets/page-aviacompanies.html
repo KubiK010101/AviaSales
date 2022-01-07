@@ -1,0 +1,412 @@
+@@include('template/head.html', { "pagetitle": "Главная страница", "bodyclass": "" }) @@include('template/page-header.html',{ "active_item": "", "logged": "false" })
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+</head>
+
+<style>
+    .cascoon-calendar-sidebar-wrapper {
+        /*display: none;*/
+    }
+    
+    .cascoon-root .cascoon-form-checkbox__label {
+        background: #25cbff !important;
+        padding: 16px 30px !important;
+        display: block !important;
+        color: #ffffff !important;
+        font-weight: bold !important;
+        font-size: 12px !important;
+        line-height: 15px !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.05em !important;
+        position: relative !important;
+        margin-left: 0 !important;
+        transform: skew(-10deg);
+        border-radius: 0;
+    }
+    
+    .cascoon-root .cascoon-form-checkbox-wrapper {
+        display: none;
+    }
+    
+    .cascoon-root .cascoon-calendar-layout .cascoon-calendar__year .cascoon-year-cell--best {
+        background-color: #25cbff !important;
+    }
+    
+    .cascoon-root .cascoon-calendar-layout .cascoon-calendar-month .cascoon-month-cell {
+        background-color: #ffffff !important;
+        border: 1px solid #e0ecf4 !important;
+        border-radius: 0 !important;
+    }
+    
+    .cascoon-root .cascoon-calendar-layout .cascoon-calendar-month .cascoon-month-cell__title {
+        font-weight: bold !important;
+        font-size: 15px !important;
+        line-height: 18px !important;
+        text-align: right !important;
+        letter-spacing: 0.05em !important;
+        color: #15181c !important;
+    }
+    /*second-widget*/
+    
+    .cascoon-form-title__title {
+        display: none;
+    }
+    
+    .cascoon a {
+        font-weight: bold !important;
+        font-size: 15px !important;
+        line-height: 18px !important;
+        letter-spacing: 0.05em !important;
+        color: #ff3225 !important;
+    }
+    
+    .cascoon-form-title__subtitle {
+        display: none;
+    }
+    
+    .cascoon.cascoon-2811.cascoon-2811_0,
+    .cascoon.cascoon-2811.cascoon-2811_0 .cascoon-like-wrapper {
+        background: #eff5f9 !important;
+        border: 1px solid #eff5f9 !important;
+    }
+</style>
+
+<body>
+    <div class="pages-bg">
+        @@include('template/page-nav.html', { activeItem: '' })
+        <div class="pages-header">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <h2 class="pages__title">Авиакомпании</h2>
+                        <div class="pages__sub-title">
+                            <a href="#" class="pages__sub-title_gray">Главная</a>
+                            <a href="#" class="pages__sub-title_white">/ Авиакомпании</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="my-container">
+        <div class="row" style="margin-bottom: 5px; margin-top: 45px;">
+            <div class="col-12 no-gutters d-flex flex-wrap justify-content-between align-items-center">
+                <div class="col-12 col-md-6 d-block d-md-flex justify-content-md-start ">
+                    <div class="skew page-aviacompanies__search-wrapper d-flex justify-content-between ">
+                        <input class="page-aviacompanies__search " type="text " placeholder="Поиск " />
+                        <div class="page-aviacompanies__search-icon "></div>
+                    </div>
+                </div>
+                <div class="mt-3 mt-md-0 col-12 col-md-6 d-flex justify-content-between justify-content-md-end">
+                    <div class="page-aviacompanies__nav-link page-aviacompanies__nav-link_arrow-left disabled">
+                        Назад
+                    </div>
+                    <div class="page-aviacompanies__nav-link page-aviacompanies__nav-link_arrow-right">
+                        Вперед
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row page-aviacompanies__tables-wrapper" style="margin-bottom: 20px;">
+            <div class="col-12 col-lg-6 page-aviacompanies__table-wrapper">
+                <table class="page-aviacompanies__table no-gutters">
+                    <tr>
+                        <th>
+                            <div class="page-aviacompanies__table-header-wrapper d-flex justify-content-between"><span>Авиакомпания</span>
+                                <a href="#" class="page-aviacompanies__table-toggle-order-link"></a>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="page-aviacompanies__table-header-wrapper d-flex justify-content-between"><span>iata</span>
+                                <a href="#" class="d-flex page-aviacompanies__table-toggle-order-link"></a>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="page-aviacompanies__table-header-wrapper d-flex justify-content-between"><span>Лого</span>
+                                <a href="#" class="d-flex page-aviacompanies__table-toggle-order-link"></a>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>Уральские авиалинии</div>
+                        </td>
+                        <td>
+                            <div>U6</div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="page-aviacompanies__table-aviacompany-logo" src="/img/avialines/ural-avialines.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>Уральские авиалинии</div>
+                        </td>
+                        <td>
+                            <div>U6</div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="page-aviacompanies__table-aviacompany-logo" src="/img/avialines/ural-avialines.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>Уральские авиалинии</div>
+                        </td>
+                        <td>
+                            <div>U6</div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="page-aviacompanies__table-aviacompany-logo" src="/img/avialines/ural-avialines.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>Уральские авиалинии</div>
+                        </td>
+                        <td>
+                            <div>U6</div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="page-aviacompanies__table-aviacompany-logo" src="/img/avialines/ural-avialines.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>Уральские авиалинии</div>
+                        </td>
+                        <td>
+                            <div>U6</div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="page-aviacompanies__table-aviacompany-logo" src="/img/avialines/ural-avialines.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>Уральские авиалинии</div>
+                        </td>
+                        <td>
+                            <div>U6</div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="page-aviacompanies__table-aviacompany-logo" src="/img/avialines/ural-avialines.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>Уральские авиалинии</div>
+                        </td>
+                        <td>
+                            <div>U6</div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="page-aviacompanies__table-aviacompany-logo" src="/img/avialines/ural-avialines.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>Уральские авиалинии</div>
+                        </td>
+                        <td>
+                            <div>U6</div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="page-aviacompanies__table-aviacompany-logo" src="/img/avialines/ural-avialines.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>Уральские авиалинии</div>
+                        </td>
+                        <td>
+                            <div>U6</div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="page-aviacompanies__table-aviacompany-logo" src="/img/avialines/ural-avialines.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-12 col-lg-6 page-aviacompanies__table-wrapper">
+                <table class="page-aviacompanies__table no-gutters">
+                    <tr class="d-none d-lg-table-row">
+                        <th>
+                            <div class="page-aviacompanies__table-header-wrapper d-flex justify-content-between"><span>Город</span>
+                                <a href="#" class="page-aviacompanies__table-toggle-order-link"></a>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="page-aviacompanies__table-header-wrapper d-flex justify-content-between"><span>Страна</span>
+                                <a href="#" class="d-flex page-aviacompanies__table-toggle-order-link"></a>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="page-aviacompanies__table-header-wrapper d-flex justify-content-between"><span>iata</span>
+                                <a href="#" class="d-flex page-aviacompanies__table-toggle-order-link"></a>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>Уральские авиалинии</div>
+                        </td>
+                        <td>
+                            <div>U6</div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="page-aviacompanies__table-aviacompany-logo" src="/img/avialines/ural-avialines.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>Уральские авиалинии</div>
+                        </td>
+                        <td>
+                            <div>U6</div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="page-aviacompanies__table-aviacompany-logo" src="/img/avialines/ural-avialines.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>Уральские авиалинии</div>
+                        </td>
+                        <td>
+                            <div>U6</div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="page-aviacompanies__table-aviacompany-logo" src="/img/avialines/ural-avialines.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>Уральские авиалинии</div>
+                        </td>
+                        <td>
+                            <div>U6</div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="page-aviacompanies__table-aviacompany-logo" src="/img/avialines/ural-avialines.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>Уральские авиалинии</div>
+                        </td>
+                        <td>
+                            <div>U6</div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="page-aviacompanies__table-aviacompany-logo" src="/img/avialines/ural-avialines.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>Уральские авиалинии</div>
+                        </td>
+                        <td>
+                            <div>U6</div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="page-aviacompanies__table-aviacompany-logo" src="/img/avialines/ural-avialines.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>Уральские авиалинии</div>
+                        </td>
+                        <td>
+                            <div>U6</div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="page-aviacompanies__table-aviacompany-logo" src="/img/avialines/ural-avialines.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>Уральские авиалинии</div>
+                        </td>
+                        <td>
+                            <div>U6</div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="page-aviacompanies__table-aviacompany-logo" src="/img/avialines/ural-avialines.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>Уральские авиалинии</div>
+                        </td>
+                        <td>
+                            <div>U6</div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="page-aviacompanies__table-aviacompany-logo" src="/img/avialines/ural-avialines.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 57px;">
+            <div class="col-12 no-gutters d-flex flex-wrap justify-content-between align-items-center">
+                <div class="col-12 col-md-6 d-block d-md-flex justify-content-md-start ">
+                    <p class="page-aviacompanies__annotation">
+                        Записи с 1 до 20 из 395 записей
+                    </p>
+                </div>
+                <div class="mt-3 mt-md-0 col-12 col-md-6 d-flex justify-content-between justify-content-md-end">
+                    <div class="page-aviacompanies__nav-link page-aviacompanies__nav-link_arrow-left disabled">
+                        Назад
+                    </div>
+                    <div class="page-aviacompanies__nav-link page-aviacompanies__nav-link_arrow-right">
+                        Вперед
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @@include('template/page-footer.html') @@include('template/popups.html')
