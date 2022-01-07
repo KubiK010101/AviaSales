@@ -1,0 +1,47 @@
+
+@@include('template/head.html', { "pagetitle": "Главная страница", "bodyclass": "" }) @@include('template/page-header.html',{ "active_item": "", "logged": "false" })
+
+<div class="pages-bg">
+    @@include('template/page-nav.html', {
+    activeItem: false
+    })
+    <div class="pages-header">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h2 class="pages__title">
+
+                    </h2>
+                    <div class="pages__sub-title">
+                        <a href="#" class="pages__sub-title_gray">Главная</a>
+                        <a href="#" class=" pages__sub-title_white">Спецпредложения  </a>
+                        <a href="#" class=" pages__sub-title_white">/  Авиакомпании</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="page-peterburg">
+    <div class="my-container">
+        <div class="row justify-content-center">
+                <div class="page-peterburg__card">
+                    <h2 class="page-peterburg__h2">Санкт-Петербург - Сан-Паулу от 30000₴</h2>
+                    <h3 class="page-peterburg__h3">Спецпредложение авиакомпании Turkish Airlines</h3>
+                    <h4 class="page-peterburg__h4">Спецпредложение действует с 15.01.2021 по 31.01.2021</h4>
+                    <p class="page-peterburg__blue-text">Санкт-Петербург - Сан-Паулу</p>
+                    <h3 class="page-peterburg__sub-blue-text">Перелет туда и обратно, эконом</h3>
+                    <button class="popular-directions__btn popular-directions__btn_lg page-peterburg__btn">НАЙТИ БИЛЕТЫ</button>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+
+@@include('template/page-footer.html') @@include('template/popups.html')
+
+
+
+
+

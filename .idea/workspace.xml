@@ -2,33 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86045a97-f772-42fd-b9be-f03bba321b97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/page-peterburg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/pages/page-peterburg.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/icofont/ico-font.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/page-blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/page-blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/page-offer.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/page-offer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/blocks/search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/blocks/search.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pages/page-blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/pages/page-blog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/plugins/icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/plugins/icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/blocks/popular-directions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/blocks/popular-directions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/icofont/ico-font.eot" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/icofont/ico-font.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/icofont/ico-font.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/icofont/ico-font.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/icofont/ico-font.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/icofont/ico-font.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/icofont/ico-font.woff" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/icofont/ico-font.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/icofont/ico-font.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/icofont/ico-font.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/page-about.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/page-about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/page-answers.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/page-answers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/page-blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/page-blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/page-offer.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/page-offer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/route.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/route.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/routes.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/routes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/start-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/start-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +103,7 @@
       <workItem from="1641384466563" duration="6590000" />
       <workItem from="1641454711636" duration="1291000" />
       <workItem from="1641478840390" duration="5629000" />
-      <workItem from="1641572531628" duration="5847000" />
+      <workItem from="1641572531628" duration="8958000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1641252404632</created>
@@ -158,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641483615239</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Gulp add">
+      <created>1641594253282</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1641594253282</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,34 +171,34 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1640697487041" />
-    <state x="585" y="154" key="CommitChangelistDialog2" timestamp="1641483610277">
+    <state x="585" y="154" key="CommitChangelistDialog2" timestamp="1641594247582">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="585" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1641483610277" />
+    <state x="585" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1641594247582" />
     <state x="740" y="315" key="FileChooserDialogImpl" timestamp="1640692416625">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="740" y="315" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1640692416625" />
-    <state x="184" y="126" key="MergeDialog" timestamp="1641255818174">
+    <state x="184" y="126" key="MergeDialog" timestamp="1641597530409">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="184" y="126" key="MergeDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1641255818174" />
-    <state x="672" y="276" key="MultipleFileMergeDialog" timestamp="1641255829663">
+    <state x="184" y="126" key="MergeDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1641597530409" />
+    <state x="672" y="276" key="MultipleFileMergeDialog" timestamp="1641597530421">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="672" y="276" key="MultipleFileMergeDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1641255829663" />
-    <state x="552" y="281" key="Vcs.Push.Dialog.v2" timestamp="1641483617568">
+    <state x="672" y="276" key="MultipleFileMergeDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1641597530421" />
+    <state x="552" y="281" key="Vcs.Push.Dialog.v2" timestamp="1641594261011">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="552" y="281" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1641483617568" />
+    <state x="552" y="281" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1641594261011" />
     <state x="656" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1641572552038">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="656" y="384" key="com.intellij.ide.util.TipDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1641572552038" />
-    <state x="769" y="477" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1641572555474">
+    <state x="769" y="477" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1641597473618">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="769" y="477" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1641572555474" />
+    <state x="769" y="477" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1641597473618" />
     <state x="616" y="260" key="run.anything.popup" timestamp="1641386577533">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
